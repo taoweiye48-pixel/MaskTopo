@@ -1,5 +1,7 @@
 # MaskTopo
 
+**English** | [简体中文](README.zh-CN.md)
+
 **Component-Aligned Token Coarsening for Thin-Structure Connectivity**
 
 Companion code for the manuscript **MaskTopo: Component-Aligned Token Coarsening for Thin-Structure Connectivity**.
