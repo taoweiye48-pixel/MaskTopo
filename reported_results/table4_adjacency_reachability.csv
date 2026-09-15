@@ -1,0 +1,9 @@
+dataset,split,protocol,condition,adjacency,reachability,ba_mean_pct,ba_sd_pct,classifier_parameters
+FIVES,test,FIVES,Assignment only,off,off,79.19,1.27,149123
+DeepCrack,test,historical_float32,Assignment only,off,off,70.39,0.81,149123
+FIVES,test,FIVES,A-only,on,off,87.33,1.76,149123
+DeepCrack,test,historical_float32,A-only,on,off,72.53,1.83,149123
+FIVES,test,FIVES,R-only,off,on,87.39,2.51,149123
+DeepCrack,test,historical_float32,R-only,off,on,74.97,2.16,149123
+FIVES,test,FIVES,MaskTopo (A+R),on,on,89.36,2.79,149123
+DeepCrack,test,historical_float32,MaskTopo (A+R),on,on,78.94,2.64,149123

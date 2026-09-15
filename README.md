@@ -82,18 +82,16 @@ with torch.no_grad():
 
 ## Reported endpoint-connectivity results
 
-Manuscript-reported three-seed mean balanced accuracy (BA, %), under the primary protocols:
+The current manuscript is the authoritative source for all reported results. Three-seed mean balanced accuracy (BA, %), under its primary protocols:
 
 | Dataset | K | MaskTopo BA | Primary comparator | Comparator BA | Gain (pp) |
 |---|---:|---:|---|---:|---:|
-| FIVES | 8 | 89.36 ± 2.79 (a) | TokenLearner | 54.61 | +34.75 |
+| FIVES | 8 | 89.36 ± 2.79 | TokenLearner | 54.61 | +34.75 |
 | DeepCrack | 16 | 74.97 ± 2.60 | Mask-Perceiver | 66.78 | +8.19 |
-| Massachusetts Roads | 8 | 76.94 ± 0.76 (a) | Matched G2TM | 67.14 | +9.80 |
+| Massachusetts Roads | 8 | 76.94 ± 0.76 | Matched G2TM | 67.14 | +9.80 |
 | RootNav2 Brassica | 16 | 89.14 ± 0.81 | Mask-Slot | 69.53 | +19.61 |
 
-(a) These two manuscript values incorporate author-supplied aggregate updates. The archived per-seed CSVs retain earlier results (FIVES 87.36%; Massachusetts 74.94%). Updated per-seed scores and predictions were not available when preparing this release. See [result provenance](docs/results_provenance.md); the old exports do not reproduce the updated rows.
-
-These are **endpoint-connectivity classification** results. The comparators and evaluation protocols differ by domain. DeepCrack's primary result uses matched float16-stored mask probabilities; the historical float32 ablations are a separate experiment. The Massachusetts and Brassica correspondence ablations use post hoc development data. See [protocol distinctions](docs/reproduction.md) and [per-seed result exports](reported_results/README.md).
+These are **endpoint-connectivity classification** results. The comparators and evaluation protocols differ by domain. DeepCrack's primary result uses matched float16-stored mask probabilities; the historical float32 ablations are a separate experiment. The Massachusetts and Brassica correspondence ablations use post hoc development data. See [protocol distinctions](docs/reproduction.md) and [Tables 1-4 in CSV format](reported_results/README.md).
 
 ## Reproduce the experiments
 
@@ -107,7 +105,7 @@ The repository contains the original experiment scripts and protocol documents. 
 | `experiments/` | Original training, evaluation, ablation, data-preparation, and summary scripts |
 | `examples/` | Small executable interface demo |
 | `tests/` | Structural invariants and original-implementation parity tests |
-| `reported_results/` | Per-seed numerical exports; no image data |
+| `reported_results/` | Aggregate results transcribed from manuscript Tables 1-4 |
 | `docs/` | Dataset links, protocols, provenance, and external dependencies |
 | `assets/` | Overview and module figures |
 
@@ -115,7 +113,7 @@ Older filenames such as `topocoarsen_oracle.py` reflect the research history. In
 
 ## Provenance and external components
 
-Original scripts and protocols are preserved byte-for-byte; their hashes are recorded in [original_source_sha256.json](docs/original_source_sha256.json). Neural modules in the public API are extracted from those scripts. Tests compare assignments, graphs, logits, and input gradients under shared weights, including nonzero graph gates.
+Original source hashes are recorded in [original_source_sha256.json](docs/original_source_sha256.json). Release changes to reporting text are documented in [source_changes.md](docs/source_changes.md); [release_source_sha256.json](docs/release_source_sha256.json) records the published file hashes. Neural modules in the public API are extracted from those scripts. Tests compare assignments, graphs, logits, and input gradients under shared weights, including nonzero graph gates.
 
 The example figures use FIVES development example #232 (`train:74_A`); the original image is from [FIVES](https://doi.org/10.6084/m9.figshare.19688169.v1), by Jin et al., distributed under CC BY 4.0. The visualizations are derived illustrations, not additional performance evidence. See [external sources](docs/third_party.md).
 

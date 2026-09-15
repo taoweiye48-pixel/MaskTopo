@@ -1,0 +1,21 @@
+dataset,split,protocol,condition,ba_mean_pct
+FIVES,test,FIVES,Grid,54.56
+DeepCrack,test,historical_float32,Grid,69.25
+Massachusetts Roads,post_hoc_development,development_ablation,Grid,60.61
+Brassica,post_hoc_development,development_ablation,Grid,71.00
+FIVES,test,FIVES,Grid + graph,53.25
+DeepCrack,test,historical_float32,Grid + graph,69.28
+Massachusetts Roads,post_hoc_development,development_ablation,Grid + graph,60.67
+Brassica,post_hoc_development,development_ablation,Grid + graph,70.44
+FIVES,test,FIVES,Assignment+identity,78.75
+DeepCrack,test,historical_float32,Assignment+identity,69.78
+Massachusetts Roads,post_hoc_development,development_ablation,Assignment+identity,69.39
+Brassica,post_hoc_development,development_ablation,Assignment+identity,73.28
+FIVES,test,FIVES,MaskTopo,89.36
+DeepCrack,test,historical_float32,MaskTopo,78.94
+Massachusetts Roads,post_hoc_development,development_ablation,MaskTopo,75.06
+Brassica,post_hoc_development,development_ablation,MaskTopo,93.83
+FIVES,test,FIVES,Shuffled,56.64
+DeepCrack,test,historical_float32,Shuffled,70.36
+Massachusetts Roads,post_hoc_development,development_ablation,Shuffled,59.83
+Brassica,post_hoc_development,development_ablation,Shuffled,69.89

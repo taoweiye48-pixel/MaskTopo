@@ -1,0 +1,81 @@
+% Exact aggregate table excerpts from the current manuscript.
+
+\begin{table}[t]
+\centering
+\caption{Endpoint connectivity on four test sets (BA, \%). MaskTopo: three-seed mean $\pm$ SD; primary comparators: mean BA. Differences (pp) are relative to designated primary comparators. TL: TokenLearner; M-Perc.: Mask-Perceiver; M-Slot: Mask-Slot.}
+\label{tab:main}
+\setlength{\tabcolsep}{1.5pt}
+\small
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Domain & $K$ & MaskTopo & Primary & Diff. \\
+\midrule
+FIVES & 8 & \textbf{89.36}$\pm$2.79 & TL 54.61 & \textbf{+34.75} \\
+DeepC. & 16 & \textbf{74.97}$\pm$2.60 & M-Perc. 66.78 & \textbf{+8.19} \\
+Mass.\ Roads & 8 & \textbf{76.94}$\pm$0.76 & G2TM 67.14 & \textbf{+9.80} \\
+Brassica & 16 & \textbf{89.14}$\pm$0.81 & M-Slot 69.53 & \textbf{+19.61} \\
+\bottomrule
+\end{tabular}
+
+\raggedright\small
+Source-cluster 95\% CIs for primary differences: FIVES $[30.48,35.01]$;
+DeepCrack $[5.46,10.89]$; Massachusetts $[5.14,10.47]$;
+Brassica $[14.97,23.65]$.
+Best-PH: FIVES 58.47$\pm$0.83; DeepCrack 71.33$\pm$0.80;
+Massachusetts not run; Brassica 69.36$\pm$0.29 (all PH-only).
+Brassica Mask-Perceiver is 69.31$\pm$1.11.
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Component alignment and graph--token correspondence (three-seed mean BA, \%). Massachusetts and Brassica use post hoc development data; DeepCrack uses the historical float32 setup.}
+\label{tab:mech}
+\setlength{\tabcolsep}{1.5pt}
+\small
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Condition & FIVES & DeepC. & Mass.\ dev & Bra.\ dev \\
+\midrule
+Grid & 54.56 & 69.25 & 60.61 & 71.00 \\
+Grid + graph & 53.25 & 69.28 & 60.67 & 70.44 \\
+Assign. + id. & 78.75 & 69.78 & 69.39 & 73.28 \\
+\textbf{MaskTopo} & \textbf{89.36} & \textbf{78.94} & \textbf{75.06} & \textbf{93.83} \\
+Shuffled & 56.64 & 70.36 & 59.83 & 69.89 \\
+\bottomrule
+\end{tabular}
+
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Graph propagation and correspondence gains (pp), computed from unrounded means in Table~\ref{tab:mech}. $\Delta_{\mathrm{graph}}$ and $\Delta_{\mathrm{corr}}$ compare MaskTopo with Assignment+identity and Shuffled, respectively.}
+\label{tab:effects}
+\setlength{\tabcolsep}{1.2pt}
+\small
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Effect & FIVES & DeepC. & Mass.\ dev & Bra.\ dev \\
+\midrule
+$\Delta_{\mathrm{graph}}$ & +10.61 & +9.16 & +5.67 & +20.56 \\
+$\Delta_{\mathrm{corr}}$ & +32.72 & +8.58 & +15.22 & +23.94 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Adjacency and reachability ablation (test BA, \%; three-seed mean $\pm$ SD). All variants use component assignment and 149,123 parameters. Evaluations are retrospective.}
+\label{tab:ar}
+\setlength{\tabcolsep}{2.2pt}
+\small
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Condition & $A$ & $R$ & FIVES & DeepC. \\
+\midrule
+Assignment only & off & off & 79.19$\pm$1.27 & 70.39$\pm$0.81 \\
+A-only & on & off & 87.33$\pm$1.76 & 72.53$\pm$1.83 \\
+R-only & off & on & 87.39$\pm$2.51 & 74.97$\pm$2.16 \\
+\textbf{MaskTopo (A+R)} & on & on & \textbf{89.36}$\pm$2.79 & \textbf{78.94}$\pm$2.64 \\
+\bottomrule
+\end{tabular}
+\end{table}

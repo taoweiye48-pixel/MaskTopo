@@ -1,0 +1,9 @@
+dataset,split,protocol,effect,comparison,gain_pp
+FIVES,test,FIVES,graph,MaskTopo minus Assignment+identity,10.61
+DeepCrack,test,historical_float32,graph,MaskTopo minus Assignment+identity,9.16
+Massachusetts Roads,post_hoc_development,development_ablation,graph,MaskTopo minus Assignment+identity,5.67
+Brassica,post_hoc_development,development_ablation,graph,MaskTopo minus Assignment+identity,20.56
+FIVES,test,FIVES,correspondence,MaskTopo minus Shuffled,32.72
+DeepCrack,test,historical_float32,correspondence,MaskTopo minus Shuffled,8.58
+Massachusetts Roads,post_hoc_development,development_ablation,correspondence,MaskTopo minus Shuffled,15.22
+Brassica,post_hoc_development,development_ablation,correspondence,MaskTopo minus Shuffled,23.94

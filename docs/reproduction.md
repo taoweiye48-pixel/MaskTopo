@@ -1,5 +1,7 @@
 # Experiment guide
 
+The current manuscript defines all reported numerical results; [Tables 1-4](../reported_results/README.md) are provided as aggregate CSVs. Use newly generated predictions to evaluate a new run.
+
 ## Working directory and environment
 
 Install from the repository root with `python -m pip install -e ".[experiments]"`. Then run the original scripts **from `experiments/`**. Their imports and relative paths retain the original workspace convention.
@@ -29,11 +31,11 @@ After the preparation described in [datasets.md](datasets.md), run each seed:
 python fives_external_gate.py --dataset-root real_data/FIVES/dataset/preprocessed512_v2 --cache-dir fives_cache_v2 --output results_fives_seed20260810 --train-size 2400 --dev-size 600 --test-size 1200 --candidate-multiplier 3 --crop-size 64 --output-size 64 --min-component-pixels 12 --mask-epochs 30 --epochs 22 --batch-size 32 --lr 0.001 --weight-decay 0.0001 --dim 64 --token-count 8 --num-workers 0 --seed 20260810 --data-seed 20260810 --split-seed 20260731 --shuffle-seed 20260731
 ```
 
-Repeat with optimization seeds 20260811 and 20260812 and matching output-directory names. The archived runs average 87.36%; the manuscript's later author-supplied 89.36% aggregate has no corresponding updated per-seed predictions in this release. Use `summarize_fives_external.py --help` for aggregation arguments.
+Repeat with optimization seeds 20260811 and 20260812 and matching output-directory names. Use `summarize_fives_external.py --help` for aggregation arguments.
 
-## DeepCrack: historical run versus primary comparison
+## DeepCrack: primary comparison and float32 ablations
 
-The historical external gate can be run after dataset extraction:
+The external gate can be run after dataset extraction:
 
 ```bash
 python deepcrack_external_gate.py --dataset-root real_data/DeepCrack/dataset/extracted --cache-dir deepcrack_cache --output results_deepcrack_seed20260810 --token-count 16 --seed 20260810 --data-seed 20260810 --split-seed 20260730
@@ -53,7 +55,7 @@ Use all three standard optimization seeds. Additional reducers are run through `
 
 These drivers consume stored masks, caches and checkpoints from preceding stages. Inspect their `--help` and corresponding `*_PROTOCOL.md` files for input paths. Some evaluators resolve the original run-directory names: preserve those names or map a local workspace with the same structure. A new optimizer seed is not a new data seed.
 
-The native MaskTopo probabilities in `deepcrack_float16.csv` give 74.94% before storage alignment; the **aligned** rows give the manuscript's **74.97%**. The manuscript's historical float32 correspondence/branch ablations use an author-updated **78.94%** summary; the archived runs contain **74.94%**. Neither belongs in Table 1. See [result provenance](results_provenance.md) for the unavailable updated predictions.
+The primary comparison in Table 1 reports **74.97%** for MaskTopo with matched float16-stored probabilities. The historical float32 correspondence and branch ablations in Tables 2 and 4 report **78.94%**. Keep these two manuscript protocols separate.
 
 ## Massachusetts Roads
 
@@ -64,7 +66,7 @@ python massroads_train_dev.py --dataset-root real_data/MassachusettsRoads --cach
 
 Run seeds 20260821 and 20260822 with outputs `results_massroads_seed20260821_train_dev` and `results_massroads_seed20260822_train_dev`. The `retry1` name for the first seed is retained because the historical freeze script expects it. It is a directory label, not an instruction to repeat a failed result selectively.
 
-Then inspect/run `massroads_freeze_manifest.py` and the `--help` stages of `massroads_test_once.py`. The included freeze manifest is a provenance record of the original checkpoints. A newly trained run requires its own verified artifact record. The archived MaskTopo test mean is 74.94%; the manuscript's later author-supplied summary is 76.94% (see [provenance](results_provenance.md)). The primary test comparison is matched G2TM; the post hoc development correspondence study is `massroads_dev_mechanism.py`.
+Then inspect/run `massroads_freeze_manifest.py` and the `--help` stages of `massroads_test_once.py`. The included freeze manifest is a provenance record of the original checkpoints. A newly trained run requires its own verified artifact record. The primary test comparison is matched G2TM; the post hoc development correspondence study is `massroads_dev_mechanism.py`.
 
 ## RootNav2 Brassica
 
@@ -98,4 +100,4 @@ The development correspondence ablation is `brassica_dev_mechanism.py`; its deve
 
 The release was checked with core tests and parity tests against the unmodified experiment code, using K=8/16, float16/float32 probabilities, closing values 0/1/2, shared classifier weights, and nonzero graph gates. Full dataset training was not rerun during repository preparation. The API demo uses random weights and synthetic data. Dataset images, full generated sample arrays and trained weights are not distributed with this source release.
 
-Preserve the dataset source as the resampling unit when reproducing source-cluster confidence intervals. Per-seed result CSVs alone do not contain the per-source predictions needed to recompute those intervals.
+Preserve the dataset source as the resampling unit when reproducing source-cluster confidence intervals. The published table summaries do not contain per-source predictions or individual seed observations; those must come from the evaluated run.

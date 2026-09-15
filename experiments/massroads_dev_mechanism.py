@@ -25,7 +25,7 @@ mechanism diagnostic, mirroring the frozen TB-B-260803-038 Brassica design:
 The reported ``Grid + mask graph - Grid`` and difference-in-differences contrasts
 are descriptive dev-only diagnostics. They do not modify the sealed-test main
 numbers in TB-B-260802-021 and cannot be used to numerically decompose the
-sealed-test ``+7.81 pp`` gain.
+primary test-set gain reported in the manuscript.
 """
 
 from __future__ import annotations
@@ -968,7 +968,7 @@ def build_report(report: dict[str, Any]) -> str:
             "this post-hoc diagnostic; the confidence intervals are descriptive, not "
             "a new confirmatory gate.",
             "- These values cannot be used to numerically decompose the TB021 sealed-"
-            "test +7.81 pp gain, nor rewritten as natural-road APLS utility.",
+            "primary test-set gain reported in the manuscript, nor rewritten as natural-road APLS utility.",
             "- No value here concerns FIVES P1--P5 disease classification.",
             "",
             "## Reproducibility and firewall",

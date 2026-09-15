@@ -1,0 +1,5 @@
+dataset,split,token_count,masktopo_ba_mean_pct,masktopo_ba_sd_pct,primary_comparator,comparator_ba_mean_pct,gain_pp,ci95_low_pp,ci95_high_pp
+FIVES,test,8,89.36,2.79,TokenLearner,54.61,34.75,30.48,35.01
+DeepCrack,test,16,74.97,2.60,Mask-Perceiver,66.78,8.19,5.46,10.89
+Massachusetts Roads,test,8,76.94,0.76,Matched G2TM,67.14,9.80,5.14,10.47
+Brassica,test,16,89.14,0.81,Mask-Slot,69.53,19.61,14.97,23.65
