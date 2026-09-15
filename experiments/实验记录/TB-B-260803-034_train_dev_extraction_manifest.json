@@ -1,0 +1,2304 @@
+{
+  "experiment_id": "TB-B-260803-034",
+  "created_utc": "2026-08-03T03:43:18.822133+00:00",
+  "source_manifest_sha256": "102ad36ce884045141cf5b71919667fa81a09e2d56829ebbc60022be0ae84de0",
+  "protocol_sha256": "d9725bff3f3865dd7e1f3f6c5bcb4aba6e10eafaccdfe53d58eeb0a1936f979f",
+  "scope": "frozen train/dev image and RSML members only",
+  "source_counts": {
+    "train": 90,
+    "dev": 14
+  },
+  "test_image_member_request_count": 0,
+  "test_rsml_member_request_count": 0,
+  "range_request_count_this_run": 4,
+  "requests": [
+    {
+      "split": "dev",
+      "source_id": "3799",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3799/image_3799.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3799\\image_3799.jpg",
+        "bytes": 1266255,
+        "sha256": "20aab9044525d62b392e0e9be1ac1961b3088c22ef1b0356c47e53dde8dc7ece",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3799/image_3799.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3799\\image_3799.rsml",
+        "bytes": 48257,
+        "sha256": "f5feabbd9a35a292824f4b1db2530d8aa7973182bac60c7d7b4b9ed882995599",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "dev",
+      "source_id": "3821",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3821/image_3821.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3821\\image_3821.jpg",
+        "bytes": 1288325,
+        "sha256": "684a065c2c466b79a4aae7d3b7061c79a93a977aee35724230cb720deb0e9371",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3821/image_3821.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3821\\image_3821.rsml",
+        "bytes": 60079,
+        "sha256": "9e1c55b1398b84fd931e122c44ee11d7144ab16c78a5a4b88a4df404a9c5e522",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "dev",
+      "source_id": "3822",
+      "range_start": 2121113352,
+      "range_end": 2122258555,
+      "range_bytes": 1145204,
+      "range_request_performed_this_run": true,
+      "image": {
+        "member": "3822/image_3822.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3822\\image_3822.jpg",
+        "bytes": 1219977,
+        "sha256": "09596fe14a187f9623c6d8cf6f6114fe71920c5bce834d76551831d259b8ee08",
+        "status": "fetched_crc_and_sha256_verified"
+      },
+      "rsml": {
+        "member": "3822/image_3822.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3822\\image_3822.rsml",
+        "bytes": 43223,
+        "sha256": "81e36be0ada5e2d37bae71669467fb2178bc82daec8249c0ae6bc94af77f6f60",
+        "status": "fetched_crc_and_sha256_verified"
+      }
+    },
+    {
+      "split": "dev",
+      "source_id": "3833",
+      "range_start": 2134126723,
+      "range_end": 2135278544,
+      "range_bytes": 1151822,
+      "range_request_performed_this_run": true,
+      "image": {
+        "member": "3833/image_3833.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3833\\image_3833.jpg",
+        "bytes": 1227705,
+        "sha256": "46b793b6ae56ca0f7f75dd4af1b1ba48dab53f51284c056a31ca4c25a70ad012",
+        "status": "fetched_crc_and_sha256_verified"
+      },
+      "rsml": {
+        "member": "3833/image_3833.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3833\\image_3833.rsml",
+        "bytes": 34630,
+        "sha256": "920f127465973ac32ad8ebdb4a77a9728046153a32e872f8f4468afc31c2c5bc",
+        "status": "fetched_crc_and_sha256_verified"
+      }
+    },
+    {
+      "split": "dev",
+      "source_id": "3850",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3850/image_3850.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3850\\image_3850.jpg",
+        "bytes": 1255323,
+        "sha256": "da5dbee0ca8b7de4e37726083507c8832e644f4b77fca40eaf3c0ee0f283cda4",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3850/image_3850.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3850\\image_3850.rsml",
+        "bytes": 17155,
+        "sha256": "b4232d71a92c6a5f6b9c68fc1844fa6f48be66a85c1a18d0e9fc3d8290bdbd09",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "dev",
+      "source_id": "3867",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3867/image_3867.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3867\\image_3867.jpg",
+        "bytes": 1257405,
+        "sha256": "4fb946481ca4cd54cdc4c4b64c8dd53a978fb94dd988630d67eaceafb9c7fd9d",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3867/image_3867.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3867\\image_3867.rsml",
+        "bytes": 70600,
+        "sha256": "98ad6a0abfebe98cc1b886a8ed7a8f4cff054d5bf5018602acd80b84a6c91887",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "dev",
+      "source_id": "3869",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3869/image_3869.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3869\\image_3869.jpg",
+        "bytes": 1255686,
+        "sha256": "5af95ccfa06807efc43cb63474ad8e2d609b8d91ba941c8c8dde0d25acd35f5b",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3869/image_3869.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3869\\image_3869.rsml",
+        "bytes": 12177,
+        "sha256": "70195103b8382712e45b7e98a05bc49779b678fd0bbd365192c68d76b1788ffd",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "dev",
+      "source_id": "3871",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3871/image_3871.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3871\\image_3871.jpg",
+        "bytes": 1262739,
+        "sha256": "8dfeb135c4d7c271db840ba1497430c42c8827b6f56a7fbcd664b5fdb98d228b",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3871/image_3871.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3871\\image_3871.rsml",
+        "bytes": 37983,
+        "sha256": "52a7394bb1ba78e6dd39b8efc23d562a14fb62446fd764e992d59e87c6ce9bb3",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "dev",
+      "source_id": "3873",
+      "range_start": 2181643926,
+      "range_end": 2182832607,
+      "range_bytes": 1188682,
+      "range_request_performed_this_run": true,
+      "image": {
+        "member": "3873/image_3873.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3873\\image_3873.jpg",
+        "bytes": 1272000,
+        "sha256": "32e40eb4f579c9352e3417b07786c248fe748cb127a9653fd5f0cdb5c9b92013",
+        "status": "fetched_crc_and_sha256_verified"
+      },
+      "rsml": {
+        "member": "3873/image_3873.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3873\\image_3873.rsml",
+        "bytes": 12379,
+        "sha256": "e9d41574708031b58313bce48f7952985add5793b8c60b1da5f2ef9fcc3e8547",
+        "status": "fetched_crc_and_sha256_verified"
+      }
+    },
+    {
+      "split": "dev",
+      "source_id": "3875",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3875/image_3875.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3875\\image_3875.jpg",
+        "bytes": 1284303,
+        "sha256": "7dcdedda2c8ede74c5792c0e996c9b682c65da1159ef99dd6dbddf0906ecbbce",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3875/image_3875.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3875\\image_3875.rsml",
+        "bytes": 12384,
+        "sha256": "704b659ca098aa6c3c9757b594f81f5782ba9da2c8dd541cee10f5a5b55da168",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "dev",
+      "source_id": "3881",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3881/image_3881.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3881\\image_3881.jpg",
+        "bytes": 1246964,
+        "sha256": "99f31ad5b2c1ea30a35f507b5b03693acd1c67dab88496ee49a9b0036abedf50",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3881/image_3881.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3881\\image_3881.rsml",
+        "bytes": 50351,
+        "sha256": "b80ae1eb0e619b3aae08ce929f112f5cc4ff6fe08a4d3b471b6162c779d347ae",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "dev",
+      "source_id": "3903",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3903/image_3903.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3903\\image_3903.jpg",
+        "bytes": 640364,
+        "sha256": "2b22b7b8603981ed9b78eeddd3460523e97ac9379c9bbfff936de55f6fb2a3f8",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3903/image_3903.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3903\\image_3903.rsml",
+        "bytes": 32675,
+        "sha256": "d63f03d2251210c367c10585ade163c869509835a3ece4dd7ac836c210607ecc",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "dev",
+      "source_id": "3908",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3908/image_3908.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3908\\image_3908.jpg",
+        "bytes": 727345,
+        "sha256": "b2fa3e4cb93665cc7aed1b79564b74eb656c3e7374a8ab66498777b5b94a9730",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3908/image_3908.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3908\\image_3908.rsml",
+        "bytes": 35172,
+        "sha256": "7ecbfa8c9ee9d1ef452a5879b10bd191674043909aaf3a708d80a598e3003aeb",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "dev",
+      "source_id": "3915",
+      "range_start": 2224220739,
+      "range_end": 2224911792,
+      "range_bytes": 691054,
+      "range_request_performed_this_run": true,
+      "image": {
+        "member": "3915/image_3915.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3915\\image_3915.jpg",
+        "bytes": 695993,
+        "sha256": "8a049df88c05595cd385044464d6673711a6f0df8fe4b8428c2bc772fa3299f6",
+        "status": "fetched_crc_and_sha256_verified"
+      },
+      "rsml": {
+        "member": "3915/image_3915.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3915\\image_3915.rsml",
+        "bytes": 37247,
+        "sha256": "f0623f5812a27f6ed4839a9b1092698766c06098349f6ad3a3659998dbaa5bb0",
+        "status": "fetched_crc_and_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3800",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3800/image_3800.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3800\\image_3800.jpg",
+        "bytes": 1231350,
+        "sha256": "916380602af7e604bb1ddee3b7d14a6b5370cbad1be584482d87639b79e8089e",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3800/image_3800.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3800\\image_3800.rsml",
+        "bytes": 43758,
+        "sha256": "09c2c93c26c0b7a55bd9aad0ec6dee6f12c910e446a5ac8274edb5e4d48823d1",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3801",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3801/image_3801.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3801\\image_3801.jpg",
+        "bytes": 1265554,
+        "sha256": "2db338b4bdb6474e10616cfb058a4a7ece6a8302ed8f83ae7ebe82bd7bf79c4e",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3801/image_3801.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3801\\image_3801.rsml",
+        "bytes": 77373,
+        "sha256": "bf49398783de2758b0dab2f5533746c8db14d265b1547bebb309b5494fb5596c",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3802",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3802/image_3802.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3802\\image_3802.jpg",
+        "bytes": 1261716,
+        "sha256": "c369c9a13aa7a1456b1154202139d995bb04aadf273632ea12b1518012683953",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3802/image_3802.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3802\\image_3802.rsml",
+        "bytes": 54641,
+        "sha256": "6a6ba57e551bdc1d7741f26f36984b2ffb658d060b07e3cde3eb2916a695dc51",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3803",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3803/image_3803.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3803\\image_3803.jpg",
+        "bytes": 1262379,
+        "sha256": "2a3a09acacf588696d1bc4b0312ae3031cad9defca651728bc0c706614440abf",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3803/image_3803.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3803\\image_3803.rsml",
+        "bytes": 19794,
+        "sha256": "0ceb67849895cf952a78767ad8b55cb24d11290415832235a5b3c93497225e44",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3804",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3804/image_3804.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3804\\image_3804.jpg",
+        "bytes": 1246642,
+        "sha256": "1f9d1926bb46ee92273f0876c597be3c20c97105aa60fe1259038205791cfec8",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3804/image_3804.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3804\\image_3804.rsml",
+        "bytes": 20056,
+        "sha256": "ba049c67cfe518a60b3621c0887ad670696185ea4656816a73662430bd3b7df2",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3805",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3805/image_3805.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3805\\image_3805.jpg",
+        "bytes": 1270757,
+        "sha256": "e055155d93457fdaf0de83b6024d419b3b1dbc635baab004ed46c418b083dcaa",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3805/image_3805.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3805\\image_3805.rsml",
+        "bytes": 64096,
+        "sha256": "12eed62cf5ba0cf5bd59635c66b8acc497ac9270f9a74a856274b20c67663877",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3806",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3806/image_3806.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3806\\image_3806.jpg",
+        "bytes": 1254246,
+        "sha256": "bac1109f47486ac37a40e6de12842a900a0d59e75e14aac7030b28eb2a00aed3",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3806/image_3806.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3806\\image_3806.rsml",
+        "bytes": 44724,
+        "sha256": "e077cd4b06db5f9192c983c869326def32c7a2c9e66b1c80ad5def08b5cf0207",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3807",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3807/image_3807.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3807\\image_3807.jpg",
+        "bytes": 1251390,
+        "sha256": "26a890db338ff67339bdcc215ceb4b4ffbbd8839aa705ddbb2014718c54092f7",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3807/image_3807.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3807\\image_3807.rsml",
+        "bytes": 39289,
+        "sha256": "141586194463bd0e063d41f9b9b64cbdf2bf478aa13525bd3d2aad32780567d6",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3809",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3809/image_3809.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3809\\image_3809.jpg",
+        "bytes": 1289742,
+        "sha256": "c1e56fdeb1f8fcbb19f930dd724a85ce1636e8c68abd31b50f2a2102676e05af",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3809/image_3809.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3809\\image_3809.rsml",
+        "bytes": 73798,
+        "sha256": "de37f6e01b18a558a62fdbffbf3eaa108aebb9be52df7bda83b4b6ab49cab077",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3810",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3810/image_3810.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3810\\image_3810.jpg",
+        "bytes": 1260431,
+        "sha256": "959724d7b2dc0dd813b7b743551de7e48bcee355ee4fb20a44ffddf7d267a1dc",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3810/image_3810.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3810\\image_3810.rsml",
+        "bytes": 21579,
+        "sha256": "2f6a3c7d3ce812a08bf6e59d6960f0c737d687dccafadcded83838e042806a2e",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3811",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3811/image_3811.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3811\\image_3811.jpg",
+        "bytes": 1241082,
+        "sha256": "667b6094e5c61fe18b367f96a469e8426745123c015ef555ca797915ff31f2d6",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3811/image_3811.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3811\\image_3811.rsml",
+        "bytes": 17436,
+        "sha256": "ca79a4a0378730e0cbcb71463922f20f690f10b2ae4a00347eb63192a95575e0",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3812",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3812/image_3812.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3812\\image_3812.jpg",
+        "bytes": 1218814,
+        "sha256": "64ee50ccc375248c188b103bdf2e187c640cc7869cf734c4e14b5674382e0464",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3812/image_3812.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3812\\image_3812.rsml",
+        "bytes": 13959,
+        "sha256": "0069856ded4f47ae1f078f52fe362daaa12f41fa1b5d97ad9c9aa33913a7903c",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3813",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3813/image_3813.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3813\\image_3813.jpg",
+        "bytes": 1262497,
+        "sha256": "6e9ad6baa99ac2c4b0d6ff524de322ac2f0ec311a78e76b8dddb89ac52e25750",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3813/image_3813.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3813\\image_3813.rsml",
+        "bytes": 64497,
+        "sha256": "af967984624106d3e7fa53ef322420db24ae455d9e4b2a23466fa22bfb94ea14",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3814",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3814/image_3814.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3814\\image_3814.jpg",
+        "bytes": 1265235,
+        "sha256": "58ad26526db3da1841dd73339904d561fb1a6e9c7e0a417c8eb0b1bce3e2d5c0",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3814/image_3814.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3814\\image_3814.rsml",
+        "bytes": 23106,
+        "sha256": "59206b66176dc27f9e53b645d923b28a234dac9fa3ab63a6a089ed972c17fa5b",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3815",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3815/image_3815.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3815\\image_3815.jpg",
+        "bytes": 1228322,
+        "sha256": "e6b8d358a17efe67f77341494cdfaf95ec08915151476953ba8526d6c492cc99",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3815/image_3815.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3815\\image_3815.rsml",
+        "bytes": 5085,
+        "sha256": "14f82b55429dc446df64f828fc130a2342e580365d1875484871ba8dfd47c3be",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3816",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3816/image_3816.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3816\\image_3816.jpg",
+        "bytes": 1272724,
+        "sha256": "1b1543a6123bf8335487cc235aab3986e825405bd7c3b5c7cb567aa2646b4ec6",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3816/image_3816.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3816\\image_3816.rsml",
+        "bytes": 68710,
+        "sha256": "d3147e8baaa2f65d90cbe9bc56d28805252b4151057530e5eb7b1c6748bc9eeb",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3817",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3817/image_3817.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3817\\image_3817.jpg",
+        "bytes": 1250895,
+        "sha256": "98a85682a773f050f8a16756fc3e8ba8a88bf2ca301380e2ad55f534e39ed2f9",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3817/image_3817.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3817\\image_3817.rsml",
+        "bytes": 23638,
+        "sha256": "2115c94b2ef9c5fd0dd460bc190dce6a5b3ba9c933fe7399a1571b28d9a4538a",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3818",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3818/image_3818.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3818\\image_3818.jpg",
+        "bytes": 1245370,
+        "sha256": "657f9aadf1cf476da4914126ef5d23178877dbdf3c355c59ccc71d4e1a1572e4",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3818/image_3818.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3818\\image_3818.rsml",
+        "bytes": 64146,
+        "sha256": "fc98bd00d556ceeca90bd45bb19291b04a53a68be80f9c6d2280a44a2f8295bf",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3819",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3819/image_3819.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3819\\image_3819.jpg",
+        "bytes": 1244475,
+        "sha256": "0596b4f4b09b7751ab426b501adf2eae2e4fc293a9fed784bda98d5fd4b496a9",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3819/image_3819.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3819\\image_3819.rsml",
+        "bytes": 48494,
+        "sha256": "6255dcd1f4f62a80fb8e1e201fc8fa70e1629961795c1279376e0481813eedac",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3820",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3820/image_3820.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3820\\image_3820.jpg",
+        "bytes": 1242327,
+        "sha256": "001d7174fb81854549bb517d1bea3a0859c6f6a443e9c9993850dbe94aa3df38",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3820/image_3820.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3820\\image_3820.rsml",
+        "bytes": 14391,
+        "sha256": "1ad42d39d90e5897cdbc6e94d6b5356a5799da4158e094932a9759f62bfc7c93",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3823",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3823/image_3823.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3823\\image_3823.jpg",
+        "bytes": 1267403,
+        "sha256": "44b02a16f000862547c8f84d21c213a3240990677d7cc04d1d939d3ff8d91664",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3823/image_3823.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3823\\image_3823.rsml",
+        "bytes": 33022,
+        "sha256": "b94e4fc5218b00bbe7f9b6f49328cfeb2b83495a2d54f0403abe36650d55a685",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3824",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3824/image_3824.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3824\\image_3824.jpg",
+        "bytes": 1257077,
+        "sha256": "fa296ed8f9899a78ebe9db8db069ba1b34ddbb1a309d0411ee7f1ebcda599f03",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3824/image_3824.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3824\\image_3824.rsml",
+        "bytes": 53535,
+        "sha256": "491239feb8ce386b13df0621e7b7aacb4a2d2b29f5ee34c5e4e0cf8a22a814b0",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3825",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3825/image_3825.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3825\\image_3825.jpg",
+        "bytes": 1241718,
+        "sha256": "820a4566f934d117ae20f0f052a5ba79c9d43faf7185714683783b79ca025234",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3825/image_3825.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3825\\image_3825.rsml",
+        "bytes": 45479,
+        "sha256": "a4649288dee0089a89397273b99be6f2040fd042800d3607823f62c2ddac72ad",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3826",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3826/image_3826.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3826\\image_3826.jpg",
+        "bytes": 1256938,
+        "sha256": "8142cc46e3c6cf3a778f6019abf470c57616772071cf4535a7e74ae06cd199db",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3826/image_3826.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3826\\image_3826.rsml",
+        "bytes": 53301,
+        "sha256": "ff7de09736681ecf6dd54b252e5acf5bbe9d633e8cecb00df929398b61e76fb4",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3827",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3827/image_3827.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3827\\image_3827.jpg",
+        "bytes": 1258918,
+        "sha256": "33e3a275d1b17f3674a57f93f3fdde1dd2c24542891c37b7e5ee5ae8187ee340",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3827/image_3827.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3827\\image_3827.rsml",
+        "bytes": 32713,
+        "sha256": "93212bcad73190abf91dbff47e942120af25405c4192075f1fe132f59d332beb",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3828",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3828/image_3828.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3828\\image_3828.jpg",
+        "bytes": 1241025,
+        "sha256": "c11d5739e45bb91bbc2bcefd7743a147335ac0c091b5764e40d584b47aedd6aa",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3828/image_3828.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3828\\image_3828.rsml",
+        "bytes": 60798,
+        "sha256": "1a27fe840cc2391e52c98b69253ffaf7950f3c5771c848332805eac194bd9d00",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3830",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3830/image_3830.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3830\\image_3830.jpg",
+        "bytes": 1259912,
+        "sha256": "3526a38aa1bc0dbb327a6fd26779c23f88ad556bb5cd66c149823a7a04bce7c4",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3830/image_3830.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3830\\image_3830.rsml",
+        "bytes": 65840,
+        "sha256": "ca4ea0e2764cdec9065b01d0daa0337e7d42b3dd51f84c3bb6de391d3dec03cf",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3831",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3831/image_3831.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3831\\image_3831.jpg",
+        "bytes": 1269807,
+        "sha256": "c69cd7cb469637e39d15aaa8eb477cc178e9ec831c85fb140a4d8ec362e06b08",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3831/image_3831.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3831\\image_3831.rsml",
+        "bytes": 56999,
+        "sha256": "164ad4e9cf7ea6688b28064d294e8a7020cc8bb532f08c5c715a9d15e9bee692",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3832",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3832/image_3832.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3832\\image_3832.jpg",
+        "bytes": 1279363,
+        "sha256": "7d492dbd429085175197e39f1fcf455649e52f836f31be0ebc1855c826457e4e",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3832/image_3832.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3832\\image_3832.rsml",
+        "bytes": 62232,
+        "sha256": "12d3349ca3cf35b778c3f7f0a2530a78f9bc921676cdc6c8fde19000f5c1b4c1",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3834",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3834/image_3834.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3834\\image_3834.jpg",
+        "bytes": 1240089,
+        "sha256": "38a31223bd769eb9e793b77dfb34f43a141af8f73bc62dd95cd46e9c158211a7",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3834/image_3834.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3834\\image_3834.rsml",
+        "bytes": 55431,
+        "sha256": "a6976656c9ab58170cfa136ca6b7bcf12d0b18f05dde015c4148767eed386536",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3835",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3835/image_3835.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3835\\image_3835.jpg",
+        "bytes": 1244098,
+        "sha256": "90200d6b426a0f101484bb3d047db522ea8a45e92c22b88586a7118c3114f6c9",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3835/image_3835.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3835\\image_3835.rsml",
+        "bytes": 14664,
+        "sha256": "eb01495bf2cfcc859fa7f8ef91c554e4d73c1442eb8a07cc62750708d4b22824",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3836",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3836/image_3836.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3836\\image_3836.jpg",
+        "bytes": 1276265,
+        "sha256": "546dc5755d6fbc3b94677802e44ec58e598eec61cf6035d07e546f90c36605be",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3836/image_3836.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3836\\image_3836.rsml",
+        "bytes": 79473,
+        "sha256": "54f7353a4fb0acc0c601c0a5f4ec3ef1ebca52fad2ce3e8024dacc962c3ba33b",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3837",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3837/image_3837.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3837\\image_3837.jpg",
+        "bytes": 1236293,
+        "sha256": "5dafb44a4aab13533352fc8f70152654d2503a9457dea7b3e53d6640c602df65",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3837/image_3837.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3837\\image_3837.rsml",
+        "bytes": 12797,
+        "sha256": "59a965991d4f05a2214b145b82cd9ea18348fa7e19f176af122d754dd3bdf70c",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3838",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3838/image_3838.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3838\\image_3838.jpg",
+        "bytes": 1256292,
+        "sha256": "abea0022f3c01805d8f6b82931dbf85af678500bcfc1e4059d5841c2faa4047b",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3838/image_3838.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3838\\image_3838.rsml",
+        "bytes": 66947,
+        "sha256": "f0b6d506d9d87d90f2242a27f9cc20544937c6affd71918ff3bae98bfabe2c0c",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3839",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3839/image_3839.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3839\\image_3839.jpg",
+        "bytes": 1289653,
+        "sha256": "cb5b3d67d7940dd2174e9f003e8bc7c41895af33bb813d3baf00f2c8558015a8",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3839/image_3839.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3839\\image_3839.rsml",
+        "bytes": 43654,
+        "sha256": "bdd4ca094c3a854105995808d9a6fcaa545059fd5ad1486d5ca6874ed5a02e8b",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3840",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3840/image_3840.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3840\\image_3840.jpg",
+        "bytes": 1249800,
+        "sha256": "fbea57d06745ed2b91b1cb7d04cdd6dec0b1c63ad530b8f53585ac79d2aef260",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3840/image_3840.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3840\\image_3840.rsml",
+        "bytes": 58925,
+        "sha256": "ec54ae743f5483b672da454b8195c8915189d8eafbf10d6aa113dc9a0ec09973",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3841",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3841/image_3841.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3841\\image_3841.jpg",
+        "bytes": 1247720,
+        "sha256": "f5af9c597490a4f9b2efee6331ccc68915a4d528d2bd3d553db949a97924cb65",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3841/image_3841.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3841\\image_3841.rsml",
+        "bytes": 71358,
+        "sha256": "74e542c6af4f6ed8d21d4c70531ab10c283ff1acdddc8b1a2f4e1869b69c322b",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3842",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3842/image_3842.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3842\\image_3842.jpg",
+        "bytes": 1256536,
+        "sha256": "dea1d64ab374c96af1baeda5e9aef630c27bff6f8b751b990bed9e7b1c4315d7",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3842/image_3842.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3842\\image_3842.rsml",
+        "bytes": 38823,
+        "sha256": "b3fd637925bcd99666cf37b06241be4f319c10b366e9a72ceb21a907508323a2",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3843",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3843/image_3843.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3843\\image_3843.jpg",
+        "bytes": 1257302,
+        "sha256": "d62e84c29fcb72a963421145307c63fa96ef42b60bc1982471895e48f759db20",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3843/image_3843.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3843\\image_3843.rsml",
+        "bytes": 62143,
+        "sha256": "bab39602198fc4295193092a0a1bce0acdc5c6daec2d8650600a7b52569af7f2",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3844",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3844/image_3844.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3844\\image_3844.jpg",
+        "bytes": 1248786,
+        "sha256": "1d7633b8bf6915dcdbda06b2a2a012d7f2e25e6a83e60ae468bae55460b05c46",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3844/image_3844.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3844\\image_3844.rsml",
+        "bytes": 35809,
+        "sha256": "a3b6b1f70e3997fa148df2ec9264776f67f7426f0e94c71c2962ab78a405c7ed",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3845",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3845/image_3845.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3845\\image_3845.jpg",
+        "bytes": 1255387,
+        "sha256": "4661d9fb43508e8bbf989ffc3520e917682e1b62696a337501991094534c582e",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3845/image_3845.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3845\\image_3845.rsml",
+        "bytes": 19719,
+        "sha256": "696617506770dab968a29b13f5bb23dfba32a72efc7703734e995fd4caec4ec6",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3846",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3846/image_3846.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3846\\image_3846.jpg",
+        "bytes": 1276442,
+        "sha256": "812473032a69519c930fd42be84a9129d6524cce17c3b8ca5c5efd7e991b7187",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3846/image_3846.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3846\\image_3846.rsml",
+        "bytes": 44467,
+        "sha256": "3c28655ef4711f64c63d7111632b7258acdc6f227008ca756f495dcc9d3a377b",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3847",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3847/image_3847.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3847\\image_3847.jpg",
+        "bytes": 1253567,
+        "sha256": "31090a464fb6dcf1a0513153f6ee77f12b017db262d2b3427387d25b8bb61a0f",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3847/image_3847.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3847\\image_3847.rsml",
+        "bytes": 17749,
+        "sha256": "b71e38517518494a0ab64fddb37dfba8a1c2c2506960346172eb40ba7769c88d",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3849",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3849/image_3849.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3849\\image_3849.jpg",
+        "bytes": 1260961,
+        "sha256": "a7ac65575bcb5f20268e3216c5ea4f890737754396106301323cd8977d6297e2",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3849/image_3849.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3849\\image_3849.rsml",
+        "bytes": 7370,
+        "sha256": "16f4297d8afdb4605f7941e978fbcb1c289e592c939d0d9fb2973973c85ea261",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3851",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3851/image_3851.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3851\\image_3851.jpg",
+        "bytes": 1277042,
+        "sha256": "0c77b9452b37919de19dd4dc598e772b4b2966df0734173e181a6992f3669165",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3851/image_3851.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3851\\image_3851.rsml",
+        "bytes": 52588,
+        "sha256": "953b847999eeade845f8e9f0ed665e6d832853261444a83a52b9e77585e71643",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3853",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3853/image_3853.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3853\\image_3853.jpg",
+        "bytes": 1304166,
+        "sha256": "637028eb3775550c9124de3d046ba8d24120e34f14de3d324978247d2b485493",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3853/image_3853.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3853\\image_3853.rsml",
+        "bytes": 36888,
+        "sha256": "047234c6bc3518a61150dc419616a8904e5ecfefb734cbcbf5b91cfd7160179c",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3854",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3854/image_3854.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3854\\image_3854.jpg",
+        "bytes": 1289003,
+        "sha256": "1b272969424183dd9c03d0ee96e3a528ed824a0196c417e0da843bc9c2373c16",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3854/image_3854.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3854\\image_3854.rsml",
+        "bytes": 53448,
+        "sha256": "71ccf52bdd0300243c8551ad41cd32e01a70a24ad59f0312fe47248ca19017bb",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3855",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3855/image_3855.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3855\\image_3855.jpg",
+        "bytes": 1268912,
+        "sha256": "ea70a4d5b9bf326f93848853c212d73bdc6dcd59ba327e884de9388211b51086",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3855/image_3855.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3855\\image_3855.rsml",
+        "bytes": 55295,
+        "sha256": "29d0be0415cfd8bff7ea2e1e578a036abb3c2ba7354428deac6c147a80eca95a",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3856",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3856/image_3856.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3856\\image_3856.jpg",
+        "bytes": 1270931,
+        "sha256": "1c1511f8d5e630b5727f18c88344006b09c6878b2f9daa088fd07f5037c2f62c",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3856/image_3856.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3856\\image_3856.rsml",
+        "bytes": 21566,
+        "sha256": "a77dd84c77df73953a3fc2741e8aaa2e20000fd0298be992e6a04baf616b359d",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3857",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3857/image_3857.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3857\\image_3857.jpg",
+        "bytes": 1286277,
+        "sha256": "5160f18387caf7ddb8e4f044b8e2854241b833e593f5a30d81e2c8514ab4873b",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3857/image_3857.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3857\\image_3857.rsml",
+        "bytes": 7621,
+        "sha256": "01adaa000cea5cbf34656033fc4b480ad4be6985c0d497fb5f42dfd37513bb7c",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3858",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3858/image_3858.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3858\\image_3858.jpg",
+        "bytes": 1251305,
+        "sha256": "fdaf838a00164a355dce03584414d3417e2efc70a81472a7f239ad4a8ce0ef83",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3858/image_3858.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3858\\image_3858.rsml",
+        "bytes": 43680,
+        "sha256": "c752254947b7ebfc09b92922671e1afe3eecc4e7e497e6332a724fb80b64fa3c",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3859",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3859/image_3859.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3859\\image_3859.jpg",
+        "bytes": 1281024,
+        "sha256": "5c52ffd12e28f12cb0b7ce9a0f5d4948cb616908c67c6a3da69189d986dece07",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3859/image_3859.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3859\\image_3859.rsml",
+        "bytes": 51285,
+        "sha256": "c9341091cfd6a892bbe8045317a386f52bab8d5f9a45372bc336246594ae9533",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3861",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3861/image_3861.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3861\\image_3861.jpg",
+        "bytes": 1265497,
+        "sha256": "dafa97d9c6bb7499da25ac7a098da11b57d43f55178d2805074aaa6c6e0c5a24",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3861/image_3861.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3861\\image_3861.rsml",
+        "bytes": 10247,
+        "sha256": "961ae95ebb34f63a1546b37d78f9d32b12c5e4696224ac884a3f516a94d2fd5a",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3862",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3862/image_3862.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3862\\image_3862.jpg",
+        "bytes": 1264869,
+        "sha256": "b767f8b38af9ed2361480a73e931873f06de2c11a8a5d4c4358c890f76f10314",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3862/image_3862.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3862\\image_3862.rsml",
+        "bytes": 18917,
+        "sha256": "80dd1868dfeec39f58ce3b10f76c3d9c5b5343f5dfa64845a4fea27e68870c1c",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3864",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3864/image_3864.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3864\\image_3864.jpg",
+        "bytes": 1295735,
+        "sha256": "d6524b19823f7000e4f8a4cc4dc2ff55655baa80e8509435434cfb6977eef253",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3864/image_3864.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3864\\image_3864.rsml",
+        "bytes": 52222,
+        "sha256": "10960098539a5c6dcc84dec9d673dd4e7cda7a034f9b34dde75487acb9dc8623",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3865",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3865/image_3865.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3865\\image_3865.jpg",
+        "bytes": 1254372,
+        "sha256": "e3f03920d39a7c873bab66e9f547091ba7cc1e98e5060dc8d6f020029481b81a",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3865/image_3865.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3865\\image_3865.rsml",
+        "bytes": 63493,
+        "sha256": "27e46a85eb220e85c8e3b45bc9f57074f03636f5ce29ef4eecb99dc8bb28cb9a",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3866",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3866/image_3866.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3866\\image_3866.jpg",
+        "bytes": 1259112,
+        "sha256": "8824e6fd3f869a9c1539306e58cb8f1f6e9194380875392ede24daad7bb4f6ff",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3866/image_3866.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3866\\image_3866.rsml",
+        "bytes": 8965,
+        "sha256": "30b81c0f57a22ba967bc081ba1979fd55c08bbcd88c10c6a91bcf87ded1ae54d",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3870",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3870/image_3870.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3870\\image_3870.jpg",
+        "bytes": 1276144,
+        "sha256": "25f0ce9aafcd721d9b9efec44d3892ac3e6f842b5ee4adb9086033837014cfa2",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3870/image_3870.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3870\\image_3870.rsml",
+        "bytes": 22169,
+        "sha256": "e513a8507e67e58d1b5effb7d8cf73a491ab513b1171179476839f983c259140",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3872",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3872/image_3872.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3872\\image_3872.jpg",
+        "bytes": 1275985,
+        "sha256": "90c17bc200e3ae05d622c91300528011e0f41e38169d040cf4b82d9eb166de3a",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3872/image_3872.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3872\\image_3872.rsml",
+        "bytes": 74349,
+        "sha256": "181d0125d080d97c70b0d9617f06b39a82ca1d504192d7dc8ca55817b19c9212",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3874",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3874/image_3874.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3874\\image_3874.jpg",
+        "bytes": 1262007,
+        "sha256": "87d05903efb3d0799b6c38afd917bda40e2c624148c2df1e502d7a63f939316c",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3874/image_3874.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3874\\image_3874.rsml",
+        "bytes": 74211,
+        "sha256": "31baf4586a857cf419110d607715faea71e87f2bd9a7adc5356813743797a69c",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3876",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3876/image_3876.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3876\\image_3876.jpg",
+        "bytes": 1259230,
+        "sha256": "22359b73567c460bd88e8d6131a4acc410e06c6205e34da007bbbace32d22b02",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3876/image_3876.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3876\\image_3876.rsml",
+        "bytes": 36340,
+        "sha256": "8adf0e6d08f3a012d1982df2bf70c3250a59abe6a1ad6a33e55dd24d8f2ca8f8",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3877",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3877/image_3877.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3877\\image_3877.jpg",
+        "bytes": 1276713,
+        "sha256": "d92489cead0703f214df83e7fcf48f7a2a4f2bd18cd3a698e9774c51675e6713",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3877/image_3877.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3877\\image_3877.rsml",
+        "bytes": 79090,
+        "sha256": "ad3f4623b8c8b275883e197abd597e0e4b3e7500dbae49c6e06031dd482e18cc",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3878",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3878/image_3878.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3878\\image_3878.jpg",
+        "bytes": 1275266,
+        "sha256": "5be19f9297dd530f73cee04e21d86cc702127492d64a4fbcd67d9ac032d3df35",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3878/image_3878.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3878\\image_3878.rsml",
+        "bytes": 13830,
+        "sha256": "74137d340a55aaaf98b7db7ab50c220c3e397fb9a5eb22a65b876a65b52a63a2",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3879",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3879/image_3879.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3879\\image_3879.jpg",
+        "bytes": 1255111,
+        "sha256": "093cd5855a888466b160508f1a38a83d74dee04f6e93d0a5f230222f1ceff791",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3879/image_3879.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3879\\image_3879.rsml",
+        "bytes": 70450,
+        "sha256": "b368032fad47fdb0b11eca6c35003f88e7140acb938ed0888c4c7556fb3629ba",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3880",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3880/image_3880.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3880\\image_3880.jpg",
+        "bytes": 1241992,
+        "sha256": "73395196966e5d90d3aa0494106e05fc8e099e7087480b927c7dc6b0d2fb2efd",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3880/image_3880.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3880\\image_3880.rsml",
+        "bytes": 53175,
+        "sha256": "4e151e26f4e39e870e43255ecd0f06cb509f6f5b15862751faad82cb059e8803",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3882",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3882/image_3882.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3882\\image_3882.jpg",
+        "bytes": 1249073,
+        "sha256": "0e1b382313f875a7e3869d7b6dbf366b7c2887a7964c14197bc69ea227c4e27b",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3882/image_3882.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3882\\image_3882.rsml",
+        "bytes": 49609,
+        "sha256": "30fe897d8be4863c834f8acf4d23b3bb41c6078ccbbddde80db47d4e2a2c7e74",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3883",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3883/image_3883.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3883\\image_3883.jpg",
+        "bytes": 1230375,
+        "sha256": "13f6d658d7314ffd6925bcbcbd2b9d7383729f44c5df8f72b89955c5bef53b06",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3883/image_3883.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3883\\image_3883.rsml",
+        "bytes": 42835,
+        "sha256": "53be82a77612ff62e307fe23be8ebddef0fe2dec04fef73f0a549071d675b6b6",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3884",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3884/image_3884.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3884\\image_3884.jpg",
+        "bytes": 1254345,
+        "sha256": "f60d7591f4ec3fabb77eb212db9dd22e47abef09135d07c2c8b88b8c021e5609",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3884/image_3884.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3884\\image_3884.rsml",
+        "bytes": 39815,
+        "sha256": "3a5d60cb902095f09340601a4b6ab07a9e5c856782a2c9de896831ef3c5a64c7",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3885",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3885/image_3885.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3885\\image_3885.jpg",
+        "bytes": 1262233,
+        "sha256": "6586e4001c038af2800902a55b43ed58ba9a8e049dcacb87c8307c886b1c15cf",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3885/image_3885.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3885\\image_3885.rsml",
+        "bytes": 28402,
+        "sha256": "e6deac18e24908203682b70def97976e1b5d24a79d9ce7153013f0f067f8a655",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3888",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3888/image_3888.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3888\\image_3888.jpg",
+        "bytes": 1246221,
+        "sha256": "36d9e66f19f519f2d165f34d000c7204f73c12d436e8746d28177e65cd37b91c",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3888/image_3888.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3888\\image_3888.rsml",
+        "bytes": 42929,
+        "sha256": "d6ea70565b397c3e753ac6bb2af4f98df6cc2a498336d95d7c35f8ebdb62c362",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3890",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3890/image_3890.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3890\\image_3890.jpg",
+        "bytes": 1249558,
+        "sha256": "21a30807f5d226b5b771368b2551e05be67542a7bf91f24790334a655c700705",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3890/image_3890.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3890\\image_3890.rsml",
+        "bytes": 7107,
+        "sha256": "37ab6308a7084c4f95be659391acdfaa1ccee4d27785fdaae9df367f4011c509",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3891",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3891/image_3891.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3891\\image_3891.jpg",
+        "bytes": 1250523,
+        "sha256": "8a28644ec69d992f45c1b3d5931a1b1892f0529b8c400f74d8d58521653e1a39",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3891/image_3891.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3891\\image_3891.rsml",
+        "bytes": 71063,
+        "sha256": "f5370c2608156c6c90c6b00251f1835f46da8d6d7fb64aaae8a151c3091304ce",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3892",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3892/image_3892.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3892\\image_3892.jpg",
+        "bytes": 1258399,
+        "sha256": "7330b9904606c63a43de88bca8330c419103c4cd2d6180ba418aaaae9cba72bf",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3892/image_3892.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3892\\image_3892.rsml",
+        "bytes": 23207,
+        "sha256": "eebc88ba0812dc703164f3c19ba34a0d21ec016f42fada5b228d1c7715798c04",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3893",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3893/image_3893.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3893\\image_3893.jpg",
+        "bytes": 1253946,
+        "sha256": "82c795cbf75f92bea32e85e89185740ac6bb3dcdf933256346191a5216eb2eb5",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3893/image_3893.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3893\\image_3893.rsml",
+        "bytes": 68483,
+        "sha256": "6c9b642e6ad9de6dd2b9574d9deaf1c8512bffe07e8f281de7184c84c1e325ea",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3894",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3894/image_3894.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3894\\image_3894.jpg",
+        "bytes": 1256911,
+        "sha256": "7d21aa08c265b486c32a618790928dcc04d26257a3b9232c2352ac18e2916c03",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3894/image_3894.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3894\\image_3894.rsml",
+        "bytes": 56481,
+        "sha256": "b058e1b7db6c825b4416df62f8a756d4008826cf31a1985e5a39c5f5a76d889f",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3895",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3895/image_3895.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3895\\image_3895.jpg",
+        "bytes": 1243880,
+        "sha256": "24769717ebfb3426abe9ac6c197ca29c6958dd68fe2b01364baaf45738606157",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3895/image_3895.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3895\\image_3895.rsml",
+        "bytes": 58043,
+        "sha256": "d939d38a6e475c9eb3725371d9e604ccd1ed8431e9caa3b40c8c97d41c04a4cb",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3896",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3896/image_3896.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3896\\image_3896.jpg",
+        "bytes": 1240519,
+        "sha256": "54d4843fe02c4a0c9bb1d7daf90dca0ce39b9ff70b5f1b1daa86a42fe34da778",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3896/image_3896.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3896\\image_3896.rsml",
+        "bytes": 33598,
+        "sha256": "ea372971ca2b1eb9ccd1a19239a3a547326784af978b31766d6503ca6e9eda19",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3897",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3897/image_3897.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3897\\image_3897.jpg",
+        "bytes": 1236054,
+        "sha256": "5c4b20883dc4b7e158441a8caa532abb9e7c1337a6f3754abccd7bc156d09f22",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3897/image_3897.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3897\\image_3897.rsml",
+        "bytes": 23312,
+        "sha256": "0bc45c21955a5ee6d30bf468199b39ac82d065d792a75a2208c927aafcb19342",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3898",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3898/image_3898.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3898\\image_3898.jpg",
+        "bytes": 1278532,
+        "sha256": "6a198aac3a6a2c10deeae32168cad0f55dc23702f3fd0ff0cbb708be22348c22",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3898/image_3898.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3898\\image_3898.rsml",
+        "bytes": 64835,
+        "sha256": "09be370c7092ab1c16de5c7406562ff80094dfce7e33a1852e448e2a61d6f66d",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3900",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3900/image_3900.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3900\\image_3900.jpg",
+        "bytes": 1256272,
+        "sha256": "044a0790cb010d38d2f939125ac742a5eb39e9f46304f2185471eef479a90814",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3900/image_3900.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3900\\image_3900.rsml",
+        "bytes": 58597,
+        "sha256": "fdbc0623fcfe66d4c02b025629f057c65a4725ecde7efd7f6f94a81acb87a570",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3902",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3902/image_3902.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3902\\image_3902.jpg",
+        "bytes": 701539,
+        "sha256": "79abc0da97e98e5fbd013825d0c3f449a11cddeca0dcaa1543dd0208af2df3ac",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3902/image_3902.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3902\\image_3902.rsml",
+        "bytes": 45119,
+        "sha256": "3860b61d041e3a82d6db014f810cc6d4656dc526db6400ddd697f32ef89780e5",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3904",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3904/image_3904.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3904\\image_3904.jpg",
+        "bytes": 728463,
+        "sha256": "c8d4e479f6fc754f5774facedec79cf21891add03e37a2dcf2a71c4c246332ab",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3904/image_3904.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3904\\image_3904.rsml",
+        "bytes": 38577,
+        "sha256": "263e0921c166d715320909db200d2adaa9aa3c85ec50ea221aee6a54294a7e54",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3906",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3906/image_3906.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3906\\image_3906.jpg",
+        "bytes": 591432,
+        "sha256": "825a3fe4f81a83fbad362b92d2392db0ece088b6faf63b381f01b33408d99f0c",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3906/image_3906.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3906\\image_3906.rsml",
+        "bytes": 25627,
+        "sha256": "fb7d9b09229a315d0ff1bc0336f5e5aa5305bcfb34b4fd7b31a72e6cc7b77522",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3907",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3907/image_3907.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3907\\image_3907.jpg",
+        "bytes": 639538,
+        "sha256": "0c656202804a21cafeb4fa8c442bbe3ac990f16923b3587137cefce49a81fa3b",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3907/image_3907.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3907\\image_3907.rsml",
+        "bytes": 35531,
+        "sha256": "4d61731514de323854c52c3406bf15b24288f78ef84206c7dcd11a22376892ea",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3909",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3909/image_3909.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3909\\image_3909.jpg",
+        "bytes": 682403,
+        "sha256": "572c65cb855433d7fac2587f8933018be264a6a79233db69249a45d0be2d42e2",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3909/image_3909.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3909\\image_3909.rsml",
+        "bytes": 29715,
+        "sha256": "e35f44fb4c25ecf1b0a7688750e409b750dee8195ea9cc3d2956f36ced7424ea",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3910",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3910/image_3910.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3910\\image_3910.jpg",
+        "bytes": 610949,
+        "sha256": "38289ad7ffe40306cac74a1abc8f087aab7815cf23cb7b063f38ec8de98a5880",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3910/image_3910.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3910\\image_3910.rsml",
+        "bytes": 39515,
+        "sha256": "b64bc1cacdb0094077386242b7e43fbb29d16cdc69eaf0ad3ee9a6ef94a32779",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3912",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3912/image_3912.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3912\\image_3912.jpg",
+        "bytes": 608385,
+        "sha256": "4e79dcca45f29a452b122030b5fc495163685c4cec53e75921bc6c23677fd7dc",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3912/image_3912.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3912\\image_3912.rsml",
+        "bytes": 35649,
+        "sha256": "ad67392c383df611dc3012abe32b2a56e5af2ec09c30e7e078ec0999676a6c3c",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3913",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3913/image_3913.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3913\\image_3913.jpg",
+        "bytes": 597286,
+        "sha256": "3d2f1204c50abcca558e3c7863a7ee914b5ec0e5af19035419a40b8fe6b468b6",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3913/image_3913.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3913\\image_3913.rsml",
+        "bytes": 37467,
+        "sha256": "aeaf6935cc99f7418717ceb135adb7b4aaa6b0b0bbd02618a58953b3300ee018",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3914",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3914/image_3914.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3914\\image_3914.jpg",
+        "bytes": 638815,
+        "sha256": "785eaec94086beb15c103e9ce76257ef9322946bbc38936309286ec241dfe62c",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3914/image_3914.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3914\\image_3914.rsml",
+        "bytes": 33786,
+        "sha256": "42a7ca24484cd02851b388075963a901385db067772e5482baf62eefe9c76c56",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    },
+    {
+      "split": "train",
+      "source_id": "3916",
+      "range_start": null,
+      "range_end": null,
+      "range_bytes": 0,
+      "range_request_performed_this_run": false,
+      "image": {
+        "member": "3916/image_3916.jpg",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3916\\image_3916.jpg",
+        "bytes": 597491,
+        "sha256": "dcf412454e0938693e5a44a614e3dec4d7a0ea5023f01f4dc839202c31b3c554",
+        "status": "existing_size_crc_sha256_verified"
+      },
+      "rsml": {
+        "member": "3916/image_3916.rsml",
+        "path": "E:\\TopoBridge_MVP\\data\\RootNav2B\\train_dev_raw\\3916\\image_3916.rsml",
+        "bytes": 30797,
+        "sha256": "e24603956fd9148c480ad33707163eee23659ffa6a1bdcae51f11f1f8f33c45c",
+        "status": "existing_size_crc_sha256_verified"
+      }
+    }
+  ]
+}

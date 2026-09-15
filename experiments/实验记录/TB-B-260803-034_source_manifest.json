@@ -1,0 +1,4095 @@
+{
+  "experiment_id": "TB-B-260803-034",
+  "created_utc": "2026-08-03T03:40:48.060442+00:00",
+  "creation_access_scope": "author archive central-directory and species-only JSON metadata; no Brassica image or RSML content",
+  "remote_archive": {
+    "url": "https://plantimages.nottingham.ac.uk/datasets/TwMTc5BnBEcjUh2TLk4ESjFSyMe7eQc9wfsyxhrs.zip",
+    "content_length": 2227029019,
+    "etag": "\"60c75959-84bdc41b\"",
+    "last_modified": "Mon, 14 Jun 2021 13:27:53 GMT",
+    "remote_index_path": "E:\\TopoBridge_MVP\\\u5b9e\u9a8c\u8bb0\u5f55\\TB-B-260803-033_author_archive_remote_index.json",
+    "remote_index_sha256": "8ea9749f11da07512b7ce2d442fd7e5845df19ec332c987164bea25a2f20af71"
+  },
+  "protocol": {
+    "path": "E:\\TopoBridge_MVP\\ROOTNAV_BRASSICA_UNTOUCHED_PROTOCOL.md",
+    "sha256": "d9725bff3f3865dd7e1f3f6c5bcb4aba6e10eafaccdfe53d58eeb0a1936f979f"
+  },
+  "split_origin": "project_defined_hash_split_after_prepixel_crc_dedup",
+  "split_seed": 20260803,
+  "reported_author_counts": {
+    "train": 91,
+    "dev": 14,
+    "test": 15
+  },
+  "prepixel_duplicate_group": [
+    "3797",
+    "3901"
+  ],
+  "duplicate_rule": "retain smallest numeric ID",
+  "excluded_source_ids": [
+    "3901"
+  ],
+  "retained_source_count": 119,
+  "counts": {
+    "train": 90,
+    "dev": 14,
+    "test": 15
+  },
+  "test_image_member_request_count": 0,
+  "test_rsml_member_request_count": 0,
+  "test_inference_marker_exists": false,
+  "sources": {
+    "train": [
+      {
+        "source_id": "3882",
+        "split_digest": "025640b5516417adc5835ec7e7c42243b00a9b18638da7927ab65ccaf57a3aac",
+        "image": {
+          "name": "3882/image_3882.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "511bfeca",
+          "compressed_size": 1166807,
+          "uncompressed_size": 1249073,
+          "local_header_offset": 2192331140,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3882/image_3882.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "533cd68d",
+          "compressed_size": 7767,
+          "uncompressed_size": 49609,
+          "local_header_offset": 2193497996,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3882/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2193505813,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3854",
+        "split_digest": "04f638cd8c939ea00e48955e4d81c4e9491377b2ecb4f10a4fa4b8c9f4560e52",
+        "image": {
+          "name": "3854/image_3854.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "b0f4827b",
+          "compressed_size": 1205004,
+          "uncompressed_size": 1289003,
+          "local_header_offset": 2158979064,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3854/image_3854.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "d99b5290",
+          "compressed_size": 8435,
+          "uncompressed_size": 53448,
+          "local_header_offset": 2160184117,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3854/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2160192602,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3811",
+        "split_digest": "0810a25c07cdad763be36d5f56d7e31035246588ae7904e30b2105178983a640",
+        "image": {
+          "name": "3811/image_3811.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "122f61e2",
+          "compressed_size": 1156982,
+          "uncompressed_size": 1241082,
+          "local_header_offset": 2108195927,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3811/image_3811.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "4f471153",
+          "compressed_size": 2977,
+          "uncompressed_size": 17436,
+          "local_header_offset": 2109352958,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3811/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2109355985,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3825",
+        "split_digest": "0926134c78be5f20f903456379171deb924206a5e099b77eb795f9bad466f555",
+        "image": {
+          "name": "3825/image_3825.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "c6e58488",
+          "compressed_size": 1159164,
+          "uncompressed_size": 1241718,
+          "local_header_offset": 2124630610,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3825/image_3825.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "ac968626",
+          "compressed_size": 7336,
+          "uncompressed_size": 45479,
+          "local_header_offset": 2125789823,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3825/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2125797209,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3800",
+        "split_digest": "0995b66d12aa8895976cd3050c8f2d23d50311a9a1328d88d8d2701f67dc5be3",
+        "image": {
+          "name": "3800/image_3800.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "a05e571a",
+          "compressed_size": 1149293,
+          "uncompressed_size": 1231350,
+          "local_header_offset": 2095200414,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3800/image_3800.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "2f1c54c0",
+          "compressed_size": 7258,
+          "uncompressed_size": 43758,
+          "local_header_offset": 2096349756,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3800/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2096357064,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3810",
+        "split_digest": "0af2f2410a83e3a29414c29a836af5a3965071882ea3c96a4622a84e3da9d1b3",
+        "image": {
+          "name": "3810/image_3810.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "fd8b3950",
+          "compressed_size": 1176398,
+          "uncompressed_size": 1260431,
+          "local_header_offset": 2107015465,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3810/image_3810.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f64d824b",
+          "compressed_size": 3806,
+          "uncompressed_size": 21579,
+          "local_header_offset": 2108191912,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3810/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2108195768,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3820",
+        "split_digest": "0cea3fd915b8a32afc7d0d5b41104e23ea20dba35044aafb37635ed857dc72c1",
+        "image": {
+          "name": "3820/image_3820.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "75d70c22",
+          "compressed_size": 1157778,
+          "uncompressed_size": 1242327,
+          "local_header_offset": 2118738014,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3820/image_3820.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "49a4aa9d",
+          "compressed_size": 2752,
+          "uncompressed_size": 14391,
+          "local_header_offset": 2119895841,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3820/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2119898643,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3864",
+        "split_digest": "0e15c1e0d3e460e58a33a8c7047b4ff7c28cd65472304e37a1398e2b0ff66dbe",
+        "image": {
+          "name": "3864/image_3864.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "90076c51",
+          "compressed_size": 1212000,
+          "uncompressed_size": 1295735,
+          "local_header_offset": 2170951380,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3864/image_3864.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "3d13d342",
+          "compressed_size": 8480,
+          "uncompressed_size": 52222,
+          "local_header_offset": 2172163429,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3864/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2172171959,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3910",
+        "split_digest": "0f6c4823e5a7c88a76af29dd5778e4ec37e94e386661059b8b7fdc9a4adc4376",
+        "image": {
+          "name": "3910/image_3910.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "db74d60f",
+          "compressed_size": 598015,
+          "uncompressed_size": 610949,
+          "local_header_offset": 2221203143,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3910/image_3910.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "85ed32c2",
+          "compressed_size": 6754,
+          "uncompressed_size": 39515,
+          "local_header_offset": 2221801207,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3910/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2221808011,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3827",
+        "split_digest": "10662ddcb795c4c721fe287f533366e00b6b97649e0aa574adcf0d13ebd6840d",
+        "image": {
+          "name": "3827/image_3827.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "a98482b5",
+          "compressed_size": 1176262,
+          "uncompressed_size": 1258918,
+          "local_header_offset": 2126979950,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3827/image_3827.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "94726ca2",
+          "compressed_size": 5673,
+          "uncompressed_size": 32713,
+          "local_header_offset": 2128156261,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3827/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2128161984,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3801",
+        "split_digest": "11889335462e283f45ec096a0130c0bdf39f895d826c92360924191d269722e2",
+        "image": {
+          "name": "3801/image_3801.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "feccadfb",
+          "compressed_size": 1184692,
+          "uncompressed_size": 1265554,
+          "local_header_offset": 2096357223,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3801/image_3801.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "ff20fb25",
+          "compressed_size": 12428,
+          "uncompressed_size": 77373,
+          "local_header_offset": 2097541964,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3801/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2097554442,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3853",
+        "split_digest": "14cc9623895038bfd545856f266f41987cf69d560817f23a6428e1484b627da5",
+        "image": {
+          "name": "3853/image_3853.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "9c2747df",
+          "compressed_size": 1218782,
+          "uncompressed_size": 1304166,
+          "local_header_offset": 2157754121,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3853/image_3853.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "37188c5a",
+          "compressed_size": 5903,
+          "uncompressed_size": 36888,
+          "local_header_offset": 2158972952,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3853/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2158978905,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3855",
+        "split_digest": "16dcf7765109cfe2c81ac8649cb698f0b0cd2a74e3d6cdce164ee15e78861ebe",
+        "image": {
+          "name": "3855/image_3855.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "a2cea617",
+          "compressed_size": 1185839,
+          "uncompressed_size": 1268912,
+          "local_header_offset": 2160192761,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3855/image_3855.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "cc2c05f6",
+          "compressed_size": 8839,
+          "uncompressed_size": 55295,
+          "local_header_offset": 2161378649,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3855/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2161387538,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3831",
+        "split_digest": "18f21f19ef94c6a367bd7fa82851eaa824f101b383b513d42ecbb3601465e418",
+        "image": {
+          "name": "3831/image_3831.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e9ad8a60",
+          "compressed_size": 1185778,
+          "uncompressed_size": 1269807,
+          "local_header_offset": 2131725352,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3831/image_3831.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "98a80176",
+          "compressed_size": 9116,
+          "uncompressed_size": 56999,
+          "local_header_offset": 2132911179,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3831/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2132920345,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3884",
+        "split_digest": "191c5437257edbd7a30064a9c923404c206af63352e959367638d391f57a3d09",
+        "image": {
+          "name": "3884/image_3884.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "aa6f4aec",
+          "compressed_size": 1170943,
+          "uncompressed_size": 1254345,
+          "local_header_offset": 2194662231,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3884/image_3884.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "72548353",
+          "compressed_size": 6493,
+          "uncompressed_size": 39815,
+          "local_header_offset": 2195833223,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3884/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2195839766,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3861",
+        "split_digest": "193a76e948e1bf51c3cb89d678c1cdb1a9f4e85e077805466e28d0c7d72009aa",
+        "image": {
+          "name": "3861/image_3861.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e47e30c8",
+          "compressed_size": 1180224,
+          "uncompressed_size": 1265497,
+          "local_header_offset": 2167385287,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3861/image_3861.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "83302688",
+          "compressed_size": 2040,
+          "uncompressed_size": 10247,
+          "local_header_offset": 2168565560,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3861/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2168567650,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3834",
+        "split_digest": "19d829eb67fb885b434b8d0d4f678d326c90ca4172f574e1baa2a9eef994039c",
+        "image": {
+          "name": "3834/image_3834.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "7ce33463",
+          "compressed_size": 1157032,
+          "uncompressed_size": 1240089,
+          "local_header_offset": 2135278704,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3834/image_3834.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "77fb4eb2",
+          "compressed_size": 8668,
+          "uncompressed_size": 55431,
+          "local_header_offset": 2136435785,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3834/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2136444503,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3916",
+        "split_digest": "1bad6df1d0ee4efd8569f2e3c4f84433848d4a64fe2920266e7a8d1390ec81b0",
+        "image": {
+          "name": "3916/image_3916.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "92a47fca",
+          "compressed_size": 584053,
+          "uncompressed_size": 597491,
+          "local_header_offset": 2224911952,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3916/image_3916.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "fe2f75b5",
+          "compressed_size": 5240,
+          "uncompressed_size": 30797,
+          "local_header_offset": 2225496054,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3916/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2225501344,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3826",
+        "split_digest": "1d4769dc87a46ca488bb3235b0391503fdb6acf5e2aa8ef4ea4007a9042b95f1",
+        "image": {
+          "name": "3826/image_3826.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "cf3a2bf6",
+          "compressed_size": 1174041,
+          "uncompressed_size": 1256938,
+          "local_header_offset": 2125797368,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3826/image_3826.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "1174ad08",
+          "compressed_size": 8283,
+          "uncompressed_size": 53301,
+          "local_header_offset": 2126971458,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3826/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2126979791,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3835",
+        "split_digest": "1de471d68f49e1440cad7d1ab863a66c91ac96e63231146b13d62737777f7de0",
+        "image": {
+          "name": "3835/image_3835.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "51fb9be2",
+          "compressed_size": 1159846,
+          "uncompressed_size": 1244098,
+          "local_header_offset": 2136444662,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3835/image_3835.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e34c14cc",
+          "compressed_size": 2573,
+          "uncompressed_size": 14664,
+          "local_header_offset": 2137604557,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3835/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2137607180,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3879",
+        "split_digest": "1f885910b071488c1ed10c3020f6b06c820288f99e3f007f6c9ec27309bdd8ac",
+        "image": {
+          "name": "3879/image_3879.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "12d9e450",
+          "compressed_size": 1172959,
+          "uncompressed_size": 1255111,
+          "local_header_offset": 2188804396,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3879/image_3879.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "c3c67b21",
+          "compressed_size": 11692,
+          "uncompressed_size": 70450,
+          "local_header_offset": 2189977404,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3879/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2189989146,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3902",
+        "split_digest": "21007a13826eeb8b9f6ae147d09a38e004036e6c3fcc0e5326fd369e44c83488",
+        "image": {
+          "name": "3902/image_3902.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "42686c0d",
+          "compressed_size": 690493,
+          "uncompressed_size": 701539,
+          "local_header_offset": 2215862701,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3902/image_3902.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "70f3f419",
+          "compressed_size": 7080,
+          "uncompressed_size": 45119,
+          "local_header_offset": 2216553243,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3902/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2216560373,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3862",
+        "split_digest": "210c2d50caf15be404beeff6950361b91d3b73174e2abc9e7be1c48d14488b4f",
+        "image": {
+          "name": "3862/image_3862.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "295098db",
+          "compressed_size": 1180036,
+          "uncompressed_size": 1264869,
+          "local_header_offset": 2168567809,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3862/image_3862.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "0aa6276a",
+          "compressed_size": 3539,
+          "uncompressed_size": 18917,
+          "local_header_offset": 2169747894,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3862/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2169751483,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3914",
+        "split_digest": "21908ecc6e0c5e6245aa763ae5b3343df8719d720564aff227252f79d43de257",
+        "image": {
+          "name": "3914/image_3914.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "589471f3",
+          "compressed_size": 626716,
+          "uncompressed_size": 638815,
+          "local_header_offset": 2223588064,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3914/image_3914.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "835be321",
+          "compressed_size": 5701,
+          "uncompressed_size": 33786,
+          "local_header_offset": 2224214829,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3914/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2224220580,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3912",
+        "split_digest": "2401ad76eb4c5eea79983784e1a906379abaf9d610a766b5c03a3aa61aea0221",
+        "image": {
+          "name": "3912/image_3912.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "893c09eb",
+          "compressed_size": 595360,
+          "uncompressed_size": 608385,
+          "local_header_offset": 2222395839,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3912/image_3912.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "eec8b177",
+          "compressed_size": 5647,
+          "uncompressed_size": 35649,
+          "local_header_offset": 2222991248,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3912/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2222996945,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3851",
+        "split_digest": "24b6ffd611026e5450100109eca79d85ef24500929747b865714d6cb8f1fd0b6",
+        "image": {
+          "name": "3851/image_3851.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "655a49b1",
+          "compressed_size": 1193148,
+          "uncompressed_size": 1277042,
+          "local_header_offset": 2155369778,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3851/image_3851.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "cf175480",
+          "compressed_size": 8205,
+          "uncompressed_size": 52588,
+          "local_header_offset": 2156562975,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3851/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2156571230,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3802",
+        "split_digest": "2584907cf4923ed569ae0e27f6fa7c27803029b0e7241b68408574b5c68969dc",
+        "image": {
+          "name": "3802/image_3802.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "dbc13954",
+          "compressed_size": 1178294,
+          "uncompressed_size": 1261716,
+          "local_header_offset": 2097554601,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3802/image_3802.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "7cbb2d94",
+          "compressed_size": 8524,
+          "uncompressed_size": 54641,
+          "local_header_offset": 2098732944,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3802/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2098741518,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3894",
+        "split_digest": "29fe1a1f081329ea4cc19337d5ab400d2866fb96d6084aa68d194ce4c15db5d3",
+        "image": {
+          "name": "3894/image_3894.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "594ca4b1",
+          "compressed_size": 1174904,
+          "uncompressed_size": 1256911,
+          "local_header_offset": 2206435493,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3894/image_3894.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "0768b519",
+          "compressed_size": 8964,
+          "uncompressed_size": 56481,
+          "local_header_offset": 2207610446,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3894/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2207619460,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3847",
+        "split_digest": "2f67421b83aa220fb3ea39b5b928814b0641f020ac5e33861c2b47e2d5b4efc4",
+        "image": {
+          "name": "3847/image_3847.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "6b94739f",
+          "compressed_size": 1168629,
+          "uncompressed_size": 1253567,
+          "local_header_offset": 2150631039,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3847/image_3847.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "a03dc7e6",
+          "compressed_size": 2970,
+          "uncompressed_size": 17749,
+          "local_header_offset": 2151799717,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3847/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2151802737,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3895",
+        "split_digest": "3022f5a72b8c0d41592253efc3e0632f529302252bb975ea4364bc3691ea6370",
+        "image": {
+          "name": "3895/image_3895.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "489682e3",
+          "compressed_size": 1162278,
+          "uncompressed_size": 1243880,
+          "local_header_offset": 2207619619,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3895/image_3895.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "3e3b53c1",
+          "compressed_size": 9115,
+          "uncompressed_size": 58043,
+          "local_header_offset": 2208781946,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3895/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2208791111,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3809",
+        "split_digest": "31341909321a3f0569f7bdf0c7a24dbde36dec750b869458e5c66c775af587a6",
+        "image": {
+          "name": "3809/image_3809.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "32e07641",
+          "compressed_size": 1208090,
+          "uncompressed_size": 1289742,
+          "local_header_offset": 2105794593,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3809/image_3809.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "0bc4bc89",
+          "compressed_size": 12524,
+          "uncompressed_size": 73798,
+          "local_header_offset": 2107002732,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3809/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2107015306,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3885",
+        "split_digest": "352a66ac052b38fdfb74c314ba78d83e5097f78cb9ac71f407da6dc7a89fae8a",
+        "image": {
+          "name": "3885/image_3885.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "7472e65d",
+          "compressed_size": 1178947,
+          "uncompressed_size": 1262233,
+          "local_header_offset": 2195839925,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3885/image_3885.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "aff4395c",
+          "compressed_size": 5120,
+          "uncompressed_size": 28402,
+          "local_header_offset": 2197018921,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3885/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2197024091,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3837",
+        "split_digest": "36b7178f7e538c427f993d335918a9c77287a316226a9bcc0322f541a67756c6",
+        "image": {
+          "name": "3837/image_3837.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "01c44ded",
+          "compressed_size": 1152641,
+          "uncompressed_size": 1236293,
+          "local_header_offset": 2138813273,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3837/image_3837.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "efb940ad",
+          "compressed_size": 2037,
+          "uncompressed_size": 12797,
+          "local_header_offset": 2139965963,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3837/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2139968050,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3913",
+        "split_digest": "3c47099faef94a968310699de65b7883112e9f49b1f629e1e6d6a15b3bcb7084",
+        "image": {
+          "name": "3913/image_3913.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "31278e18",
+          "compressed_size": 584807,
+          "uncompressed_size": 597286,
+          "local_header_offset": 2222997104,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3913/image_3913.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "18562f4f",
+          "compressed_size": 5895,
+          "uncompressed_size": 37467,
+          "local_header_offset": 2223581960,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3913/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2223587905,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3828",
+        "split_digest": "3dc680ecca1fbd60aef0f083b97a4415dac988030b66b8705b3786a8f8939664",
+        "image": {
+          "name": "3828/image_3828.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "aaeb4e82",
+          "compressed_size": 1159733,
+          "uncompressed_size": 1241025,
+          "local_header_offset": 2128162143,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3828/image_3828.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "71fc384d",
+          "compressed_size": 9977,
+          "uncompressed_size": 60798,
+          "local_header_offset": 2129321925,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3828/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2129331952,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3870",
+        "split_digest": "46f0c26aaeeacd6622534b7b046a4027795c947b642357ad845bbd933f792677",
+        "image": {
+          "name": "3870/image_3870.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "abb0d192",
+          "compressed_size": 1191173,
+          "uncompressed_size": 1276144,
+          "local_header_offset": 2178059360,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3870/image_3870.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "9d7c12b2",
+          "compressed_size": 4425,
+          "uncompressed_size": 22169,
+          "local_header_offset": 2179250582,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3870/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2179255057,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3904",
+        "split_digest": "4acc0bc521fdb3c0a1a961f44d9a2849b6c602a462550282165e2641092012c7",
+        "image": {
+          "name": "3904/image_3904.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f47f545c",
+          "compressed_size": 718007,
+          "uncompressed_size": 728463,
+          "local_header_offset": 2217193532,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3904/image_3904.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "627fb8fb",
+          "compressed_size": 6415,
+          "uncompressed_size": 38577,
+          "local_header_offset": 2217911588,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3904/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2217918053,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3890",
+        "split_digest": "4ee768171441f1d22bb1a7f24ad557045d20bf8c486d6496b3ba0074aa4557df",
+        "image": {
+          "name": "3890/image_3890.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "1b8607ed",
+          "compressed_size": 1165291,
+          "uncompressed_size": 1249558,
+          "local_header_offset": 2201726395,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3890/image_3890.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "eec09b33",
+          "compressed_size": 1395,
+          "uncompressed_size": 7107,
+          "local_header_offset": 2202891735,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3890/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2202893180,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3838",
+        "split_digest": "4f5ff4fd1acbe75b065fad63a4e239951b44d30a9dfda56fa0aaedc8006fafcc",
+        "image": {
+          "name": "3838/image_3838.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "c2f6b422",
+          "compressed_size": 1174099,
+          "uncompressed_size": 1256292,
+          "local_header_offset": 2139968209,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3838/image_3838.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e8cdaaaa",
+          "compressed_size": 11039,
+          "uncompressed_size": 66947,
+          "local_header_offset": 2141142357,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3838/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2141153446,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3812",
+        "split_digest": "5404a321ce20c60292412199be4a70655e78d9211601430d9a11b0430c80b2eb",
+        "image": {
+          "name": "3812/image_3812.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "ba975911",
+          "compressed_size": 1137470,
+          "uncompressed_size": 1218814,
+          "local_header_offset": 2109356144,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3812/image_3812.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "aed81f0c",
+          "compressed_size": 2669,
+          "uncompressed_size": 13959,
+          "local_header_offset": 2110493663,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3812/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2110496382,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3891",
+        "split_digest": "5509b2e9dbd4c2df761d30a4ee26b7417b7bb0168ed2de33eeffcb0ede6321c2",
+        "image": {
+          "name": "3891/image_3891.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e91b841d",
+          "compressed_size": 1169072,
+          "uncompressed_size": 1250523,
+          "local_header_offset": 2202893339,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3891/image_3891.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "2c6b04fc",
+          "compressed_size": 11314,
+          "uncompressed_size": 71063,
+          "local_header_offset": 2204062460,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3891/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2204073824,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3816",
+        "split_digest": "568b6dd2bd398125f7dfa8ae327400dbe0b08ea23e025de0b2079b05b6cd9f0b",
+        "image": {
+          "name": "3816/image_3816.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "b0d01043",
+          "compressed_size": 1190570,
+          "uncompressed_size": 1272724,
+          "local_header_offset": 2114019467,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3816/image_3816.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "bb69e01d",
+          "compressed_size": 10990,
+          "uncompressed_size": 68710,
+          "local_header_offset": 2115210086,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3816/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2115221126,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3849",
+        "split_digest": "58b40eefb7298033c65c74c24b1e63d56ef429b4a3d5b6e26b3e6747a6e9c1fa",
+        "image": {
+          "name": "3849/image_3849.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "4a19ce69",
+          "compressed_size": 1174808,
+          "uncompressed_size": 1260961,
+          "local_header_offset": 2153017404,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3849/image_3849.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "27fe326e",
+          "compressed_size": 1314,
+          "uncompressed_size": 7370,
+          "local_header_offset": 2154192261,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3849/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2154193625,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3876",
+        "split_digest": "60df81a55fa236f3f8f4c96df5623b9f51b36d66a621ecfb3bcd82a10699dde8",
+        "image": {
+          "name": "3876/image_3876.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "57a5e870",
+          "compressed_size": 1175302,
+          "uncompressed_size": 1259230,
+          "local_header_offset": 2185224063,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3876/image_3876.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "c5f977ee",
+          "compressed_size": 5727,
+          "uncompressed_size": 36340,
+          "local_header_offset": 2186399414,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3876/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2186405191,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3818",
+        "split_digest": "62ba5202626910ccef373ba300604c6ceaa694e374ac6b28b1476f1a85152241",
+        "image": {
+          "name": "3818/image_3818.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "73993340",
+          "compressed_size": 1163728,
+          "uncompressed_size": 1245370,
+          "local_header_offset": 2116392522,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3818/image_3818.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "b7cc3d38",
+          "compressed_size": 10383,
+          "uncompressed_size": 64146,
+          "local_header_offset": 2117556299,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3818/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2117566732,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3865",
+        "split_digest": "64d70b253c8a3e73e356f230766b08027936650e4f990b2e698f2dddd67b7d12",
+        "image": {
+          "name": "3865/image_3865.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "95aa8671",
+          "compressed_size": 1172057,
+          "uncompressed_size": 1254372,
+          "local_header_offset": 2172172118,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3865/image_3865.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "6b448dd5",
+          "compressed_size": 10231,
+          "uncompressed_size": 63493,
+          "local_header_offset": 2173344224,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3865/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2173354505,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3859",
+        "split_digest": "65e20c3ad3a4d40d615e2483e56d87fb533136fb24473d5e40010a19662f70cf",
+        "image": {
+          "name": "3859/image_3859.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f698e932",
+          "compressed_size": 1196783,
+          "uncompressed_size": 1281024,
+          "local_header_offset": 2164952602,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3859/image_3859.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "0bc7af1d",
+          "compressed_size": 8040,
+          "uncompressed_size": 51285,
+          "local_header_offset": 2166149434,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3859/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2166157524,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3888",
+        "split_digest": "67e1f42b3c9200ba3e3668d2cd4855eb45de9f92ab7cce1ee8cf45a79fee3a55",
+        "image": {
+          "name": "3888/image_3888.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "fbd799bf",
+          "compressed_size": 1163340,
+          "uncompressed_size": 1246221,
+          "local_header_offset": 2199356835,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3888/image_3888.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "140057a0",
+          "compressed_size": 7162,
+          "uncompressed_size": 42929,
+          "local_header_offset": 2200520224,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3888/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2200527436,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3878",
+        "split_digest": "6977696acf91b7037ba0310289709ee2f8a2cde44a7175986d0aa3365e0784e7",
+        "image": {
+          "name": "3878/image_3878.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "195ea9c3",
+          "compressed_size": 1189514,
+          "uncompressed_size": 1275266,
+          "local_header_offset": 2187611761,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3878/image_3878.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "fee7790f",
+          "compressed_size": 2863,
+          "uncompressed_size": 13830,
+          "local_header_offset": 2188801324,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3878/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2188804237,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3804",
+        "split_digest": "69ed5431033571dab5ddb588f1e3ee5354c1d8ec18d14b1ab4d8768431d83d79",
+        "image": {
+          "name": "3804/image_3804.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e96609de",
+          "compressed_size": 1162593,
+          "uncompressed_size": 1246642,
+          "local_header_offset": 2099924385,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3804/image_3804.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "d1433c02",
+          "compressed_size": 3762,
+          "uncompressed_size": 20056,
+          "local_header_offset": 2101087027,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3804/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2101090839,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3846",
+        "split_digest": "6a6fe17b2c7b586fe80df6460517e6c9fcac6a08656fcd39d01c9dff304a51ed",
+        "image": {
+          "name": "3846/image_3846.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "ad593ea5",
+          "compressed_size": 1192113,
+          "uncompressed_size": 1276442,
+          "local_header_offset": 2149431696,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3846/image_3846.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "4ae12957",
+          "compressed_size": 6972,
+          "uncompressed_size": 44467,
+          "local_header_offset": 2150623858,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3846/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2150630880,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3806",
+        "split_digest": "6ba3b8be65a406d1d77927635f004ce518350e3c42a01e2cb51c938b8fe940e4",
+        "image": {
+          "name": "3806/image_3806.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e771fd9a",
+          "compressed_size": 1172239,
+          "uncompressed_size": 1254246,
+          "local_header_offset": 2102290404,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3806/image_3806.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "075fc903",
+          "compressed_size": 7366,
+          "uncompressed_size": 44724,
+          "local_header_offset": 2103462692,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3806/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2103470108,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3906",
+        "split_digest": "6bafe90ed5e6486aef2c43abe5e228e3668d230582015c7cdc6f4eaa357c1b7b",
+        "image": {
+          "name": "3906/image_3906.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "ca34988a",
+          "compressed_size": 577419,
+          "uncompressed_size": 591432,
+          "local_header_offset": 2218590660,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3906/image_3906.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "6e22e759",
+          "compressed_size": 3840,
+          "uncompressed_size": 25627,
+          "local_header_offset": 2219168128,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3906/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2219172018,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3858",
+        "split_digest": "71f709dad98470ead4ed9af42fd8671c5369ca341a55c6e32c0e29586f9a992c",
+        "image": {
+          "name": "3858/image_3858.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "b13efa8d",
+          "compressed_size": 1167369,
+          "uncompressed_size": 1251305,
+          "local_header_offset": 2163777973,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3858/image_3858.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "a4dbb21e",
+          "compressed_size": 7002,
+          "uncompressed_size": 43680,
+          "local_header_offset": 2164945391,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3858/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2164952443,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3896",
+        "split_digest": "720f647e023899d787aff8fda68b8261b21835ab35ff48bda7e5ae8ae38a186b",
+        "image": {
+          "name": "3896/image_3896.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "b5411c39",
+          "compressed_size": 1157790,
+          "uncompressed_size": 1240519,
+          "local_header_offset": 2208791270,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3896/image_3896.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "82103c07",
+          "compressed_size": 5800,
+          "uncompressed_size": 33598,
+          "local_header_offset": 2209949109,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3896/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2209954959,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3803",
+        "split_digest": "733d3b1a5bfacc52f9f35f0540a357c894fccad352a76e6dcc69dd35acf86398",
+        "image": {
+          "name": "3803/image_3803.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "53353edb",
+          "compressed_size": 1178652,
+          "uncompressed_size": 1262379,
+          "local_header_offset": 2098741677,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3803/image_3803.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "39747f6c",
+          "compressed_size": 3798,
+          "uncompressed_size": 19794,
+          "local_header_offset": 2099920378,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3803/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2099924226,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3805",
+        "split_digest": "76fe84afc6aeac2203c602addd6fd128a4bf669b2795adab16801e35d6ed661d",
+        "image": {
+          "name": "3805/image_3805.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "03495ce7",
+          "compressed_size": 1188970,
+          "uncompressed_size": 1270757,
+          "local_header_offset": 2101090998,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3805/image_3805.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "39e74c37",
+          "compressed_size": 10178,
+          "uncompressed_size": 64096,
+          "local_header_offset": 2102280017,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3805/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2102290245,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3909",
+        "split_digest": "78d00d4f46d68fc1ebe223d82297d153b6fa01b354fc27ddb26c384b83d88d7a",
+        "image": {
+          "name": "3909/image_3909.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "d0ed190b",
+          "compressed_size": 670457,
+          "uncompressed_size": 682403,
+          "local_header_offset": 2220527648,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3909/image_3909.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "abc144a4",
+          "compressed_size": 4780,
+          "uncompressed_size": 29715,
+          "local_header_offset": 2221198154,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3909/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2221202984,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3814",
+        "split_digest": "812e6e5e8a9b73863789a94a350e5ae0c2624bd0e6b07624d781cf791f1820e7",
+        "image": {
+          "name": "3814/image_3814.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e90dfcc6",
+          "compressed_size": 1180925,
+          "uncompressed_size": 1265235,
+          "local_header_offset": 2111688476,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3814/image_3814.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "4cf927f7",
+          "compressed_size": 3914,
+          "uncompressed_size": 23106,
+          "local_header_offset": 2112869450,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3814/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2112873414,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3832",
+        "split_digest": "821afd55c0c4042969a31aee5dd8f461f044b60de910d820634451b6c7474d06",
+        "image": {
+          "name": "3832/image_3832.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e3ad1fb1",
+          "compressed_size": 1196055,
+          "uncompressed_size": 1279363,
+          "local_header_offset": 2132920504,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3832/image_3832.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "eb1d8386",
+          "compressed_size": 9906,
+          "uncompressed_size": 62232,
+          "local_header_offset": 2134116608,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3832/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2134126564,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3844",
+        "split_digest": "871c62817060c78873a5253e1b80f6b2e32bc812c7b03b0fbc07246bb30408b4",
+        "image": {
+          "name": "3844/image_3844.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e8496e19",
+          "compressed_size": 1165306,
+          "uncompressed_size": 1248786,
+          "local_header_offset": 2147085677,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3844/image_3844.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "75c164d8",
+          "compressed_size": 5731,
+          "uncompressed_size": 35809,
+          "local_header_offset": 2148251032,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3844/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2148256813,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3840",
+        "split_digest": "899274a7a20e1292baab246bd68a85f5206eb6757b55a14989f726d66e328467",
+        "image": {
+          "name": "3840/image_3840.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "9c7fd430",
+          "compressed_size": 1166928,
+          "uncompressed_size": 1249800,
+          "local_header_offset": 2142365591,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3840/image_3840.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "cbb3509b",
+          "compressed_size": 9013,
+          "uncompressed_size": 58925,
+          "local_header_offset": 2143532568,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3840/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2143541631,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3819",
+        "split_digest": "8d4c258b77f7c0c8264d2e51b0f4aeae1311f1029942eea428e2c06d5d08cf72",
+        "image": {
+          "name": "3819/image_3819.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "d8b449d7",
+          "compressed_size": 1163041,
+          "uncompressed_size": 1244475,
+          "local_header_offset": 2117566891,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3819/image_3819.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "b238504a",
+          "compressed_size": 7824,
+          "uncompressed_size": 48494,
+          "local_header_offset": 2118729981,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3819/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2118737855,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3839",
+        "split_digest": "8e6e3029329ca5a82e02a4339faccb23c37ceed8d8c46d96e4103dfab3398515",
+        "image": {
+          "name": "3839/image_3839.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "b0b7680a",
+          "compressed_size": 1204558,
+          "uncompressed_size": 1289653,
+          "local_header_offset": 2141153605,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3839/image_3839.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "72c58cc2",
+          "compressed_size": 7170,
+          "uncompressed_size": 43654,
+          "local_header_offset": 2142358212,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3839/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2142365432,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3880",
+        "split_digest": "91e14c734e0cfde51726e71444c81cc354a5116495087115376d7222215a125a",
+        "image": {
+          "name": "3880/image_3880.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "92812226",
+          "compressed_size": 1159723,
+          "uncompressed_size": 1241992,
+          "local_header_offset": 2189989305,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3880/image_3880.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "9fd89d5b",
+          "compressed_size": 8756,
+          "uncompressed_size": 53175,
+          "local_header_offset": 2191149077,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3880/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2191157883,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3824",
+        "split_digest": "931c960b0fb408830c129648acdd10b44bbd8c7af4a1e5ef9c6673cf5cc71f8b",
+        "image": {
+          "name": "3824/image_3824.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "5ad30beb",
+          "compressed_size": 1174428,
+          "uncompressed_size": 1257077,
+          "local_header_offset": 2123447201,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3824/image_3824.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "02cc3456",
+          "compressed_size": 8723,
+          "uncompressed_size": 53535,
+          "local_header_offset": 2124621678,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3824/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2124630451,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3842",
+        "split_digest": "943378b0576bc945b2a09998b288ef539df5035ee8e081fe86babb133ab1a575",
+        "image": {
+          "name": "3842/image_3842.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e07aa923",
+          "compressed_size": 1173759,
+          "uncompressed_size": 1256536,
+          "local_header_offset": 2144719642,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3842/image_3842.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "399db98d",
+          "compressed_size": 6702,
+          "uncompressed_size": 38823,
+          "local_header_offset": 2145893450,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3842/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2145900202,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3841",
+        "split_digest": "9475a7e945b8aaeb8eb0d7a943d7bc30a9a4e59afb06992f49d5a950bc36524d",
+        "image": {
+          "name": "3841/image_3841.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "69b75775",
+          "compressed_size": 1166254,
+          "uncompressed_size": 1247720,
+          "local_header_offset": 2143541790,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3841/image_3841.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "96a53092",
+          "compressed_size": 11340,
+          "uncompressed_size": 71358,
+          "local_header_offset": 2144708093,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3841/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2144719483,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3893",
+        "split_digest": "986399ccf8756e769812949e917027b248acc2d93b10dc89c6ad3118efe4f996",
+        "image": {
+          "name": "3893/image_3893.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "5a9eeafc",
+          "compressed_size": 1172899,
+          "uncompressed_size": 1253946,
+          "local_header_offset": 2205251585,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3893/image_3893.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "32c96e04",
+          "compressed_size": 10751,
+          "uncompressed_size": 68483,
+          "local_header_offset": 2206424533,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3893/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2206435334,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3877",
+        "split_digest": "990526906f69896180e4458d33e6e0aac71a69f4cfad84a9e68da8c2306dd17c",
+        "image": {
+          "name": "3877/image_3877.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "5213c259",
+          "compressed_size": 1193523,
+          "uncompressed_size": 1276713,
+          "local_header_offset": 2186405350,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3877/image_3877.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "70008607",
+          "compressed_size": 12630,
+          "uncompressed_size": 79090,
+          "local_header_offset": 2187598922,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3877/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2187611602,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3815",
+        "split_digest": "9b41f0a73b4e286747e9148311a0346d7457043b35fa632c7c8817728eb7f469",
+        "image": {
+          "name": "3815/image_3815.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "a82f9985",
+          "compressed_size": 1144665,
+          "uncompressed_size": 1228322,
+          "local_header_offset": 2112873573,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3815/image_3815.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "4dd01e03",
+          "compressed_size": 971,
+          "uncompressed_size": 5085,
+          "local_header_offset": 2114018287,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3815/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2114019308,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3817",
+        "split_digest": "9c13e49966dc4a9f176edf1d0bb3f28e045280f52eaebb8f05b9aff83d1179fd",
+        "image": {
+          "name": "3817/image_3817.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "696e1600",
+          "compressed_size": 1166444,
+          "uncompressed_size": 1250895,
+          "local_header_offset": 2115221285,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3817/image_3817.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "4b5ab750",
+          "compressed_size": 4535,
+          "uncompressed_size": 23638,
+          "local_header_offset": 2116387778,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3817/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2116392363,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3892",
+        "split_digest": "a0052e8cbfb9f002098f5b40af5cecf352eee11c38b0288f8026a0c403111438",
+        "image": {
+          "name": "3892/image_3892.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "732ac281",
+          "compressed_size": 1173495,
+          "uncompressed_size": 1258399,
+          "local_header_offset": 2204073983,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3892/image_3892.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "c6daad1b",
+          "compressed_size": 3849,
+          "uncompressed_size": 23207,
+          "local_header_offset": 2205247527,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3892/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2205251426,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3813",
+        "split_digest": "a215c496451aaeaeedd36e30cb9360b016554356168a24e0ba84176364c7ae4f",
+        "image": {
+          "name": "3813/image_3813.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "7d017912",
+          "compressed_size": 1181265,
+          "uncompressed_size": 1262497,
+          "local_header_offset": 2110496541,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3813/image_3813.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "fcfcf13d",
+          "compressed_size": 10412,
+          "uncompressed_size": 64497,
+          "local_header_offset": 2111677855,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3813/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2111688317,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3900",
+        "split_digest": "a46dbf098d047dd5fea3c08b1d32bf30ad5f9ce3d50254027d4d6ae1ea30c02e",
+        "image": {
+          "name": "3900/image_3900.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "0354d89c",
+          "compressed_size": 1174491,
+          "uncompressed_size": 1256272,
+          "local_header_offset": 2213484030,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3900/image_3900.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f1c6417c",
+          "compressed_size": 9541,
+          "uncompressed_size": 58597,
+          "local_header_offset": 2214658570,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3900/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2214668161,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3883",
+        "split_digest": "a57073494417b5c8fff76df820c7c46b057cc94ded78b16e2e2da61ea982df1a",
+        "image": {
+          "name": "3883/image_3883.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "c6d06b47",
+          "compressed_size": 1148879,
+          "uncompressed_size": 1230375,
+          "local_header_offset": 2193505972,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3883/image_3883.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "7c4385e3",
+          "compressed_size": 7122,
+          "uncompressed_size": 42835,
+          "local_header_offset": 2194654900,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3883/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2194662072,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3907",
+        "split_digest": "a5ec71a053d184270cb1e559784e5032c5148b8eb3eef6eb8e73b900e0a5df01",
+        "image": {
+          "name": "3907/image_3907.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "0ac6848a",
+          "compressed_size": 627207,
+          "uncompressed_size": 639538,
+          "local_header_offset": 2219172177,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3907/image_3907.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "2a587d87",
+          "compressed_size": 5689,
+          "uncompressed_size": 35531,
+          "local_header_offset": 2219799433,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3907/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2219805172,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3898",
+        "split_digest": "a8992d429ff22f499a131ad584c8b6c3cb1b93f9ce528103d90ea932cf65d9e7",
+        "image": {
+          "name": "3898/image_3898.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "dd602a69",
+          "compressed_size": 1195225,
+          "uncompressed_size": 1278532,
+          "local_header_offset": 2211112232,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3898/image_3898.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "dbb1d6ae",
+          "compressed_size": 9924,
+          "uncompressed_size": 64835,
+          "local_header_offset": 2212307506,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3898/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2212317480,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3823",
+        "split_digest": "aa0607b0531708dd21bb56407e9ffd52e8e80589a7946b09d034660ff7e8e021",
+        "image": {
+          "name": "3823/image_3823.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "cb99a296",
+          "compressed_size": 1183024,
+          "uncompressed_size": 1267403,
+          "local_header_offset": 2122258715,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3823/image_3823.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "be798e54",
+          "compressed_size": 5204,
+          "uncompressed_size": 33022,
+          "local_header_offset": 2123441788,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3823/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2123447042,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3856",
+        "split_digest": "abb50ff6eaf8602542cfd9362f168e3f7a37d8a3e62a812f7e1bdcbd190a808f",
+        "image": {
+          "name": "3856/image_3856.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "4e1b6ddd",
+          "compressed_size": 1185389,
+          "uncompressed_size": 1270931,
+          "local_header_offset": 2161387697,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3856/image_3856.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "07f6c79d",
+          "compressed_size": 3384,
+          "uncompressed_size": 21566,
+          "local_header_offset": 2162573135,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3856/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2162576569,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3836",
+        "split_digest": "af17edd69fe678494d89ca507b23772f005a998c81af3195d496ccc1c3478dbf",
+        "image": {
+          "name": "3836/image_3836.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "594a6386",
+          "compressed_size": 1193163,
+          "uncompressed_size": 1276265,
+          "local_header_offset": 2137607339,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3836/image_3836.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "0f12a852",
+          "compressed_size": 12513,
+          "uncompressed_size": 79473,
+          "local_header_offset": 2138800551,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3836/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2138813114,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3897",
+        "split_digest": "af8159fe8c4821f12d044b3b7ac56cf31c088bef5e73d3851e03ad1e81598f95",
+        "image": {
+          "name": "3897/image_3897.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "fb4537f8",
+          "compressed_size": 1152725,
+          "uncompressed_size": 1236054,
+          "local_header_offset": 2209955118,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3897/image_3897.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "186ecc31",
+          "compressed_size": 4131,
+          "uncompressed_size": 23312,
+          "local_header_offset": 2211107892,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3897/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2211112073,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3866",
+        "split_digest": "afb7a81ce2dfb99933d7dc8e4f2eabbd656b338dc2f1d3fb9beaf9f2a241902b",
+        "image": {
+          "name": "3866/image_3866.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "01ae7fc1",
+          "compressed_size": 1173081,
+          "uncompressed_size": 1259112,
+          "local_header_offset": 2173354664,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3866/image_3866.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "88372eb0",
+          "compressed_size": 1850,
+          "uncompressed_size": 8965,
+          "local_header_offset": 2174527794,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3866/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2174529694,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3845",
+        "split_digest": "b4ccbba2f9b04adf67841ac25d4007318356429c6dc193643519445db27bb756",
+        "image": {
+          "name": "3845/image_3845.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "0c1ee98d",
+          "compressed_size": 1170735,
+          "uncompressed_size": 1255387,
+          "local_header_offset": 2148256972,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3845/image_3845.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "a5096648",
+          "compressed_size": 3731,
+          "uncompressed_size": 19719,
+          "local_header_offset": 2149427756,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3845/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2149431537,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3830",
+        "split_digest": "b5250a78f5e1a649493b6e5955103d31ef8b6419d884966e81bdffb4c1e81df3",
+        "image": {
+          "name": "3830/image_3830.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "d7dfcfef",
+          "compressed_size": 1176719,
+          "uncompressed_size": 1259912,
+          "local_header_offset": 2130538311,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3830/image_3830.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "910bab97",
+          "compressed_size": 10064,
+          "uncompressed_size": 65840,
+          "local_header_offset": 2131715079,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3830/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2131725193,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3872",
+        "split_digest": "b5fc1e4f3a78e5445f8b0a096fdf332c831aa489700887a55d486c728f98a3ae",
+        "image": {
+          "name": "3872/image_3872.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "c43d9417",
+          "compressed_size": 1192352,
+          "uncompressed_size": 1275985,
+          "local_header_offset": 2180439696,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3872/image_3872.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "54ed9c7d",
+          "compressed_size": 11620,
+          "uncompressed_size": 74349,
+          "local_header_offset": 2181632097,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3872/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2181643767,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3807",
+        "split_digest": "b868354af7a1f73ec5510455ae4741790be415f1b9d6cd418cb7aafd0994435a",
+        "image": {
+          "name": "3807/image_3807.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "8be13648",
+          "compressed_size": 1168359,
+          "uncompressed_size": 1251390,
+          "local_header_offset": 2103470267,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3807/image_3807.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "936e552e",
+          "compressed_size": 6604,
+          "uncompressed_size": 39289,
+          "local_header_offset": 2104638675,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3807/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2104645329,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3874",
+        "split_digest": "ba26798ab197e55bc151a9b056a03030f9bf93b85bda9ceb7c23390cf4c94654",
+        "image": {
+          "name": "3874/image_3874.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "11a052d6",
+          "compressed_size": 1179695,
+          "uncompressed_size": 1262007,
+          "local_header_offset": 2182832767,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3874/image_3874.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f5928399",
+          "compressed_size": 11361,
+          "uncompressed_size": 74211,
+          "local_header_offset": 2184012511,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3874/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2184023922,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3843",
+        "split_digest": "bbb5aa4bf27f56608050ab5f46617729b1fb22b1a029c408b2fe701b72fd2521",
+        "image": {
+          "name": "3843/image_3843.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "c95f8a23",
+          "compressed_size": 1175365,
+          "uncompressed_size": 1257302,
+          "local_header_offset": 2145900361,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3843/image_3843.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "be996a43",
+          "compressed_size": 9693,
+          "uncompressed_size": 62143,
+          "local_header_offset": 2147075775,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3843/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2147085518,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3857",
+        "split_digest": "bd416666db682e43f293c11214aa6178abdf843d945d37c2da3afda7a26d7f68",
+        "image": {
+          "name": "3857/image_3857.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "ecf3b703",
+          "compressed_size": 1199365,
+          "uncompressed_size": 1286277,
+          "local_header_offset": 2162576728,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3857/image_3857.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "ebdf8895",
+          "compressed_size": 1622,
+          "uncompressed_size": 7621,
+          "local_header_offset": 2163776142,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3857/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2163777814,
+          "is_directory": false
+        }
+      }
+    ],
+    "dev": [
+      {
+        "source_id": "3821",
+        "split_digest": "c4222b268f768de87fb44922c41210a63076b2385882bc6a65018357e4f4c6ea",
+        "image": {
+          "name": "3821/image_3821.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "315df7b9",
+          "compressed_size": 1204755,
+          "uncompressed_size": 1288325,
+          "local_header_offset": 2119898802,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3821/image_3821.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "4e28afcd",
+          "compressed_size": 9537,
+          "uncompressed_size": 60079,
+          "local_header_offset": 2121103606,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3821/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2121113193,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3908",
+        "split_digest": "c6564f4eaea72b38b67a63cd12f8ecf24e23dbabf4699c5f7a6cf202f540670b",
+        "image": {
+          "name": "3908/image_3908.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "882666d1",
+          "compressed_size": 716674,
+          "uncompressed_size": 727345,
+          "local_header_offset": 2219805331,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3908/image_3908.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f32c3af6",
+          "compressed_size": 5385,
+          "uncompressed_size": 35172,
+          "local_header_offset": 2220522054,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3908/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2220527489,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3903",
+        "split_digest": "c78857bf616d840c44d561ef986862e411812efcbbd0758688238a8a49320ef4",
+        "image": {
+          "name": "3903/image_3903.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "14e5a89b",
+          "compressed_size": 627405,
+          "uncompressed_size": 640364,
+          "local_header_offset": 2216560532,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3903/image_3903.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "4a968bcf",
+          "compressed_size": 5337,
+          "uncompressed_size": 32675,
+          "local_header_offset": 2217187986,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3903/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2217193373,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3799",
+        "split_digest": "c8911359b5c14939a414c8a8f5eccaf8770fc39f6fc942877a22c45bb72e364f",
+        "image": {
+          "name": "3799/image_3799.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "eb5888d1",
+          "compressed_size": 1184709,
+          "uncompressed_size": 1266255,
+          "local_header_offset": 2094007391,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3799/image_3799.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "9988cf0d",
+          "compressed_size": 8056,
+          "uncompressed_size": 48257,
+          "local_header_offset": 2095192149,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3799/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2095200255,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3869",
+        "split_digest": "c9651bb1c79a6a093dc54bd423446671b9196d6e8d7002e1cad2c8f7d2e6dd28",
+        "image": {
+          "name": "3869/image_3869.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e3884e3f",
+          "compressed_size": 1170509,
+          "uncompressed_size": 1255686,
+          "local_header_offset": 2176886294,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3869/image_3869.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "9eaa823e",
+          "compressed_size": 2299,
+          "uncompressed_size": 12177,
+          "local_header_offset": 2178056852,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3869/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2178059201,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3850",
+        "split_digest": "c98d6427e5955db03c09f24bdb0afc51af39afb068acf21d7ee79be23e54c980",
+        "image": {
+          "name": "3850/image_3850.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "88069259",
+          "compressed_size": 1172219,
+          "uncompressed_size": 1255323,
+          "local_header_offset": 2154193784,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3850/image_3850.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "673bccb2",
+          "compressed_size": 3517,
+          "uncompressed_size": 17155,
+          "local_header_offset": 2155366052,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3850/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2155369619,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3881",
+        "split_digest": "cc1c468006526c0bf4fa2d169e552f3d93a6769cfa4465dbbcd4db7b5cf58a7c",
+        "image": {
+          "name": "3881/image_3881.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "c7983adb",
+          "compressed_size": 1164250,
+          "uncompressed_size": 1246964,
+          "local_header_offset": 2191158042,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3881/image_3881.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "20804d94",
+          "compressed_size": 8590,
+          "uncompressed_size": 50351,
+          "local_header_offset": 2192322341,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3881/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2192330981,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3867",
+        "split_digest": "cd40bb948a8cccaa6f35514654243e9141385219859b6c5cb4b0eedd4a8c4d0a",
+        "image": {
+          "name": "3867/image_3867.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "798c8855",
+          "compressed_size": 1174464,
+          "uncompressed_size": 1257405,
+          "local_header_offset": 2174529853,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3867/image_3867.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "68304dbb",
+          "compressed_size": 11125,
+          "uncompressed_size": 70600,
+          "local_header_offset": 2175704366,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3867/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2175715541,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3871",
+        "split_digest": "d41b1fba9373ce7d6376baa6107f66ad8b161c94650597945df78901f4bfc1af",
+        "image": {
+          "name": "3871/image_3871.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "bb303850",
+          "compressed_size": 1178458,
+          "uncompressed_size": 1262739,
+          "local_header_offset": 2179255216,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3871/image_3871.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "9f75e77c",
+          "compressed_size": 5764,
+          "uncompressed_size": 37983,
+          "local_header_offset": 2180433723,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3871/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2180439537,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3875",
+        "split_digest": "d4bc80e5ef852ee8116f5b03e1b1c4a514eb1909c1d4598f24d1e166e4a14733",
+        "image": {
+          "name": "3875/image_3875.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "10e2e233",
+          "compressed_size": 1197737,
+          "uncompressed_size": 1284303,
+          "local_header_offset": 2184024081,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3875/image_3875.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "1d90f081",
+          "compressed_size": 1987,
+          "uncompressed_size": 12384,
+          "local_header_offset": 2185221867,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3875/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2185223904,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3822",
+        "split_digest": "d711937228461166f47deba0bac13785380e607161418018703d4b8aa6c02838",
+        "image": {
+          "name": "3822/image_3822.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "9029fd7f",
+          "compressed_size": 1138229,
+          "uncompressed_size": 1219977,
+          "local_header_offset": 2121113352,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3822/image_3822.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "6317f56a",
+          "compressed_size": 6876,
+          "uncompressed_size": 43223,
+          "local_header_offset": 2122251630,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3822/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2122258556,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3873",
+        "split_digest": "d8b8ad6cc4ef14c59bc4d12b4c301aaf970defb55fcc36add6ec467c35c3eb30",
+        "image": {
+          "name": "3873/image_3873.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "1cf61dea",
+          "compressed_size": 1186162,
+          "uncompressed_size": 1272000,
+          "local_header_offset": 2181643926,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3873/image_3873.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "5b779fec",
+          "compressed_size": 2421,
+          "uncompressed_size": 12379,
+          "local_header_offset": 2182830137,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3873/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2182832608,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3915",
+        "split_digest": "da5532935e4eea6c2dfac5eb2f29818712dc028e68c5200a09490ce7cbc063f3",
+        "image": {
+          "name": "3915/image_3915.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "a6c16d26",
+          "compressed_size": 684925,
+          "uncompressed_size": 695993,
+          "local_header_offset": 2224220739,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3915/image_3915.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "b934d9ff",
+          "compressed_size": 6030,
+          "uncompressed_size": 37247,
+          "local_header_offset": 2224905713,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3915/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2224911793,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3833",
+        "split_digest": "da90b3d3a1d2e5359f436beabb36bce9999d963fdcad4e0841eca92a0642f456",
+        "image": {
+          "name": "3833/image_3833.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "40ad7b99",
+          "compressed_size": 1145838,
+          "uncompressed_size": 1227705,
+          "local_header_offset": 2134126723,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3833/image_3833.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "b79169a2",
+          "compressed_size": 5885,
+          "uncompressed_size": 34630,
+          "local_header_offset": 2135272610,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3833/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2135278545,
+          "is_directory": false
+        }
+      }
+    ],
+    "test": [
+      {
+        "source_id": "3911",
+        "split_digest": "de211f7d907f7a0c4ac31e1430ba513aa945c75aaa82d0297fdcfc9fea08375e",
+        "image": {
+          "name": "3911/image_3911.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "85650d56",
+          "compressed_size": 580792,
+          "uncompressed_size": 594514,
+          "local_header_offset": 2221808170,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3911/image_3911.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "106829ac",
+          "compressed_size": 6619,
+          "uncompressed_size": 38088,
+          "local_header_offset": 2222389011,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3911/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2222395680,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3868",
+        "split_digest": "ded621998473786c3cf35d27e30105ab632db1c0ac67708e43052f5cdb330503",
+        "image": {
+          "name": "3868/image_3868.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f42714d2",
+          "compressed_size": 1166670,
+          "uncompressed_size": 1251940,
+          "local_header_offset": 2175715700,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3868/image_3868.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "867e825f",
+          "compressed_size": 3666,
+          "uncompressed_size": 19953,
+          "local_header_offset": 2176882419,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3868/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2176886135,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3899",
+        "split_digest": "dff520e9aee35a88ec6d48fd1d0c408c180fd8a201793907f41e17139e16d07f",
+        "image": {
+          "name": "3899/image_3899.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "d1bf6ed7",
+          "compressed_size": 1157759,
+          "uncompressed_size": 1239602,
+          "local_header_offset": 2212317639,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3899/image_3899.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "8060e35e",
+          "compressed_size": 8374,
+          "uncompressed_size": 56258,
+          "local_header_offset": 2213475447,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3899/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2213483871,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3860",
+        "split_digest": "e82c09d346cbb5f19064fb3c86aec85bbe4ffe7e4001de122673a6f32adf6b0d",
+        "image": {
+          "name": "3860/image_3860.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "320fd4e8",
+          "compressed_size": 1215107,
+          "uncompressed_size": 1298409,
+          "local_header_offset": 2166157683,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3860/image_3860.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "951957d6",
+          "compressed_size": 12239,
+          "uncompressed_size": 75148,
+          "local_header_offset": 2167372839,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3860/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2167385128,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3848",
+        "split_digest": "e83ed7abbf04f2480e30aee5b0c3212f0104b6d4a58905e970e468f6360ab12e",
+        "image": {
+          "name": "3848/image_3848.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "76e1b4f5",
+          "compressed_size": 1207786,
+          "uncompressed_size": 1293341,
+          "local_header_offset": 2151802896,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3848/image_3848.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "9ad10811",
+          "compressed_size": 6464,
+          "uncompressed_size": 43772,
+          "local_header_offset": 2153010731,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3848/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2153017245,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3797",
+        "split_digest": "eb7b8eec93c89c9ed712448d82ad7d80d5d52865ba31e67301081f266aeaf533",
+        "image": {
+          "name": "3797/image_3797.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "5b8bf405",
+          "compressed_size": 1191910,
+          "uncompressed_size": 1274636,
+          "local_header_offset": 2091625131,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3797/image_3797.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "142780c8",
+          "compressed_size": 8859,
+          "uncompressed_size": 54249,
+          "local_header_offset": 2092817090,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3797/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2092825999,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3798",
+        "split_digest": "ec634d12ecb018c8258c58cd63f2ee364707f40b2655a7c8bac3935c03063e1b",
+        "image": {
+          "name": "3798/image_3798.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f22f190f",
+          "compressed_size": 1172824,
+          "uncompressed_size": 1254694,
+          "local_header_offset": 2092826158,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3798/image_3798.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e110484e",
+          "compressed_size": 8151,
+          "uncompressed_size": 50340,
+          "local_header_offset": 2093999031,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3798/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2094007232,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3887",
+        "split_digest": "ed0db643b407905fa2e04fa38440db537bfac7c8b589308398b8ff63396bffb7",
+        "image": {
+          "name": "3887/image_3887.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e4300583",
+          "compressed_size": 1155248,
+          "uncompressed_size": 1235894,
+          "local_header_offset": 2198190573,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3887/image_3887.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "388cf471",
+          "compressed_size": 10756,
+          "uncompressed_size": 68156,
+          "local_header_offset": 2199345870,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3887/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2199356676,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3808",
+        "split_digest": "ed9998485efbc57ab6701aa734ad1ebb832b2531266435a50d63661447a961e3",
+        "image": {
+          "name": "3808/image_3808.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "987b0990",
+          "compressed_size": 1146478,
+          "uncompressed_size": 1231193,
+          "local_header_offset": 2104645488,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3808/image_3808.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "d216d2a4",
+          "compressed_size": 2369,
+          "uncompressed_size": 12615,
+          "local_header_offset": 2105792015,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3808/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2105794434,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3852",
+        "split_digest": "ee384fc90ac24c794d012f6467154778319d572cdcc78a2555e8e6f370a45f1e",
+        "image": {
+          "name": "3852/image_3852.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "15ae1233",
+          "compressed_size": 1180808,
+          "uncompressed_size": 1266089,
+          "local_header_offset": 2156571389,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3852/image_3852.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "fbe4870d",
+          "compressed_size": 1666,
+          "uncompressed_size": 7510,
+          "local_header_offset": 2157752246,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3852/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2157753962,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3905",
+        "split_digest": "eeb0199b96918ef3252bd3fbc48d88275880984ff3eabb12013e179ce05325ee",
+        "image": {
+          "name": "3905/image_3905.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "c6da5c07",
+          "compressed_size": 666845,
+          "uncompressed_size": 678003,
+          "local_header_offset": 2217918212,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3905/image_3905.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "645cc32c",
+          "compressed_size": 5345,
+          "uncompressed_size": 36354,
+          "local_header_offset": 2218585106,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3905/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2218590501,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3863",
+        "split_digest": "f579511b7487aebc7aa29c5ee3d6e690e20f5a47b1cdc6783cdd78a4b3d8168e",
+        "image": {
+          "name": "3863/image_3863.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "380c3320",
+          "compressed_size": 1190525,
+          "uncompressed_size": 1274269,
+          "local_header_offset": 2169751642,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3863/image_3863.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "18711287",
+          "compressed_size": 8955,
+          "uncompressed_size": 55836,
+          "local_header_offset": 2170942216,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3863/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2170951221,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3829",
+        "split_digest": "f86affb5a90adbc8e62b5426c3ddc84e43f4ee436805df3d95349ea511706261",
+        "image": {
+          "name": "3829/image_3829.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "d44e6cc4",
+          "compressed_size": 1195532,
+          "uncompressed_size": 1276853,
+          "local_header_offset": 2129332111,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3829/image_3829.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "a0c0bc97",
+          "compressed_size": 10410,
+          "uncompressed_size": 65846,
+          "local_header_offset": 2130527692,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3829/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2130538152,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3886",
+        "split_digest": "f947c0451b80542beb501f20f95f380bbfb8ae6e5bf8ef65191a00909d03f541",
+        "image": {
+          "name": "3886/image_3886.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "e9ee17a7",
+          "compressed_size": 1160833,
+          "uncompressed_size": 1243601,
+          "local_header_offset": 2197024250,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3886/image_3886.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "857401a7",
+          "compressed_size": 5232,
+          "uncompressed_size": 30417,
+          "local_header_offset": 2198185132,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3886/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2198190414,
+          "is_directory": false
+        }
+      },
+      {
+        "source_id": "3889",
+        "split_digest": "fb0b249275efafafbcb612927e5ce5258c8122d7f2674d915272979675851ecb",
+        "image": {
+          "name": "3889/image_3889.jpg",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "0a51d4ac",
+          "compressed_size": 1187000,
+          "uncompressed_size": 1268322,
+          "local_header_offset": 2200527595,
+          "is_directory": false
+        },
+        "rsml": {
+          "name": "3889/image_3889.rsml",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "314c5241",
+          "compressed_size": 11542,
+          "uncompressed_size": 69446,
+          "local_header_offset": 2201714644,
+          "is_directory": false
+        },
+        "metadata": {
+          "name": "3889/metadata.json",
+          "compression_method": 8,
+          "flags": 0,
+          "crc32": "f4bc7551",
+          "compressed_size": 76,
+          "uncompressed_size": 78,
+          "local_header_offset": 2201726236,
+          "is_directory": false
+        }
+      }
+    ]
+  }
+}

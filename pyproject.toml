@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "masktopo"
+version = "0.1.0"
+description = "Component-aligned token coarsening for thin-structure connectivity"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "numpy>=2.0", "scipy>=1.13"]
+
+[project.optional-dependencies]
+test = ["matplotlib", "Pillow"]
+experiments = ["matplotlib", "pandas", "Pillow", "gudhi", "scikit-learn", "scikit-image", "rasterio", "shapely", "tqdm"]
+
+[project.urls]
+Repository = "https://github.com/taoweiye48-pixel/MaskTopo"
+
+[tool.setuptools.packages.find]
+include = ["masktopo*"]

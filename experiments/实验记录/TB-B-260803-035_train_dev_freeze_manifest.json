@@ -1,0 +1,377 @@
+{
+  "experiment_id": "TB-B-260803-035",
+  "status": "TRAIN_DEV_FROZEN_TEST_STILL_SEALED",
+  "created_at": "2026-08-03T12:32:39.628375+08:00",
+  "claim_boundary": "untouched-test external validation after disclosed train/dev task-shortcut repair",
+  "endpoint_disease_firewall": "Endpoint-connectivity effects are separate from P1-P5 disease classification +1.00 pp.",
+  "test_accessed": false,
+  "test_image_member_request_count": 0,
+  "test_rsml_member_request_count": 0,
+  "test_marker_exists": false,
+  "test_ids": [
+    "3911",
+    "3868",
+    "3899",
+    "3860",
+    "3848",
+    "3797",
+    "3798",
+    "3887",
+    "3808",
+    "3852",
+    "3905",
+    "3863",
+    "3829",
+    "3886",
+    "3889"
+  ],
+  "test_source_count": 15,
+  "test_sample_count": 1200,
+  "optimization_seeds": [
+    20260810,
+    20260811,
+    20260812
+  ],
+  "data_seed": 20260810,
+  "bootstrap_seed": 20260803,
+  "bootstrap_replicates": 20000,
+  "token_count": 16,
+  "dev_summary": {
+    "mask_topo_external": {
+      "values": [
+        0.9416666666666667,
+        0.9416666666666667,
+        0.9316666666666666
+      ],
+      "mean": 0.9383333333333334,
+      "sample_sd": 0.005773502691896263
+    },
+    "mask_conditioned_perceiver_strong": {
+      "values": [
+        0.7183333333333333,
+        0.7233333333333334,
+        0.7050000000000001
+      ],
+      "mean": 0.7155555555555556,
+      "sample_sd": 0.009477067838462184
+    },
+    "mask_conditioned_slot_param_matched": {
+      "values": [
+        0.72,
+        0.7250000000000001,
+        0.7183333333333334
+      ],
+      "mean": 0.7211111111111111,
+      "sample_sd": 0.00346944333244359
+    },
+    "ph_only": {
+      "values": [
+        0.7016666666666667,
+        0.75,
+        0.7516666666666667
+      ],
+      "mean": 0.7344444444444445,
+      "sample_sd": 0.028398617598071253
+    },
+    "ph_guided": {
+      "values": [
+        0.6966666666666667,
+        0.745,
+        0.7366666666666666
+      ],
+      "mean": 0.726111111111111,
+      "sample_sd": 0.025837813231629952
+    }
+  },
+  "ph_selection_rule": "three-seed mean dev balanced accuracy; ties within 1e-12 select ph_guided",
+  "selected_best_ph": "ph_only",
+  "selected_test_models": [
+    "mask_topo_external",
+    "mask_conditioned_perceiver_strong",
+    "mask_conditioned_slot_param_matched",
+    "ph_only"
+  ],
+  "frozen_inputs": {
+    "ROOTNAV_BRASSICA_UNTOUCHED_PROTOCOL.md": {
+      "path": "E:\\TopoBridge_MVP\\ROOTNAV_BRASSICA_UNTOUCHED_PROTOCOL.md",
+      "bytes": 10605,
+      "sha256": "d9725bff3f3865dd7e1f3f6c5bcb4aba6e10eafaccdfe53d58eeb0a1936f979f"
+    },
+    "ROOTNAV_BRASSICA_UNTOUCHED_PROTOCOL_V2.md": {
+      "path": "E:\\TopoBridge_MVP\\ROOTNAV_BRASSICA_UNTOUCHED_PROTOCOL_V2.md",
+      "bytes": 5420,
+      "sha256": "db40091a6d78d1ef980a3d93ca01f5467fb7d45ed7410b97ac233f0c030af1fb"
+    },
+    "实验记录/TB-B-260803-034_source_manifest.json": {
+      "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-034_source_manifest.json",
+      "bytes": 132438,
+      "sha256": "102ad36ce884045141cf5b71919667fa81a09e2d56829ebbc60022be0ae84de0"
+    },
+    "实验记录/TB-B-260803-034_train_dev_extraction_manifest.json": {
+      "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-034_train_dev_extraction_manifest.json",
+      "bytes": 89888,
+      "sha256": "9735c85ae3186839b6a56b9091478a654ce9a82af377cf654e401ee756dfb457"
+    },
+    "实验记录/TB-B-260803-035_data_gate/data_gate.json": {
+      "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_data_gate\\data_gate.json",
+      "bytes": 4736,
+      "sha256": "aefa91fb24a9ae596de55ca1d143d6006914e1e24b9bd89fe9eefbe8137a6e39"
+    }
+  },
+  "training_code": {
+    "brassica_train_dev.py": {
+      "path": "E:\\TopoBridge_MVP\\brassica_train_dev.py",
+      "bytes": 29293,
+      "sha256": "04406bf978dbad9a685f1748520c3205817eef3c9e6d2e2ad9a7060cb974b72e"
+    },
+    "crackforest_mask_topo.py": {
+      "path": "E:\\TopoBridge_MVP\\crackforest_mask_topo.py",
+      "bytes": 24098,
+      "sha256": "1b46197380a9f979ffb0394469da17b81533dbe7806d8a58b323115ef5b5d4fd"
+    },
+    "crackforest_mechanism_ablation.py": {
+      "path": "E:\\TopoBridge_MVP\\crackforest_mechanism_ablation.py",
+      "bytes": 20550,
+      "sha256": "f97b81bf0e15fede5ecdb8bf901bbb2c3e151f449191cc229f052034096d02da"
+    },
+    "crackforest_real_gate.py": {
+      "path": "E:\\TopoBridge_MVP\\crackforest_real_gate.py",
+      "bytes": 59160,
+      "sha256": "ce6d54d7764cb7f0ca2c46514c7f376a36e820ac50bf51d1318002e4712bd650"
+    },
+    "mask_aware_equal_supervision.py": {
+      "path": "E:\\TopoBridge_MVP\\mask_aware_equal_supervision.py",
+      "bytes": 28034,
+      "sha256": "eb07de07f8e544ffe66677fe26997d84d44e8e841b9df9ac0bf8182fd251ebe7"
+    },
+    "ph_token_baselines.py": {
+      "path": "E:\\TopoBridge_MVP\\ph_token_baselines.py",
+      "bytes": 33706,
+      "sha256": "d01941c1c96b10ed6f02a6cfca52cfb2c85fd76d25dc002815b67e79e41309f2"
+    },
+    "strong_reducer_baselines.py": {
+      "path": "E:\\TopoBridge_MVP\\strong_reducer_baselines.py",
+      "bytes": 26702,
+      "sha256": "4c2861cff591683de66085f4b6f7ba94dff8be7be442f544b2d1f56b609d67ac"
+    },
+    "topobridge_mvp.py": {
+      "path": "E:\\TopoBridge_MVP\\topobridge_mvp.py",
+      "bytes": 32411,
+      "sha256": "6bd6c620347579b4ec9c16094c72d4289fbb4928f5ef93f539d46c50596ffcef"
+    },
+    "topocoarsen_oracle.py": {
+      "path": "E:\\TopoBridge_MVP\\topocoarsen_oracle.py",
+      "bytes": 32309,
+      "sha256": "b1b9d3de89ccd8326641bdc4670bcc0c58d3d69b254790a6ac0972d8d9580294"
+    }
+  },
+  "seed_artifacts": {
+    "20260810": {
+      "result": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260810\\train_dev_result.json",
+        "bytes": 9772,
+        "sha256": "e8ef27b1308a20039ff447496491374ceac030925d2b8be4e1c2e27d580b87ba"
+      },
+      "mask_checkpoint": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260810\\mask_predictor_seed20260810.pt",
+        "bytes": 4431799,
+        "sha256": "7feec8ab1467c68ad1110d845aa181b2fd7e9e5f20f60d1e65d5b4658c73b10f"
+      },
+      "mask_probabilities": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260810\\mask_probabilities_train_dev.npz",
+        "bytes": 19526620,
+        "sha256": "4518a4634dc71b11fe6f6c8b5a0fa538e6221c201304f27d136f4a66b654f267"
+      },
+      "ph_cache": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260810\\ph_descriptors_train_dev.npz",
+        "bytes": 2718269,
+        "sha256": "92007eb48a82977fe1fa6b0d5d6c06e9282730229c946e6b7f114e5997c99857"
+      },
+      "dev_predictions": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260810\\dev_predictions.npz",
+        "bytes": 15847,
+        "sha256": "fe18111e79746d0c218b72fd538c4ae7dcfba9a878d1be6c6e04ae7b91591afd"
+      },
+      "model_checkpoints": {
+        "mask_topo_external": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260810\\mask_topo_external_seed20260810.pt",
+          "bytes": 618744,
+          "sha256": "19a8083fc9670db7ca9dcd4aae11f9888b932f359fcaee1c5ab510abdb692b8d"
+        },
+        "mask_conditioned_perceiver_strong": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260810\\mask_conditioned_perceiver_strong_seed20260810.pt",
+          "bytes": 1071939,
+          "sha256": "69a7b67c32e18b055ba496464d8f38d799a3c73657ec9a8768006e3caef95b17"
+        },
+        "mask_conditioned_slot_param_matched": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260810\\mask_conditioned_slot_param_matched_seed20260810.pt",
+          "bytes": 623474,
+          "sha256": "710fa96979256a9f677458bae0d26bdaee9764d1a32bf9a722128dd6cb0daaa3"
+        },
+        "ph_only": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260810\\ph_only_seed20260810.pt",
+          "bytes": 575574,
+          "sha256": "96d3a8adc42dbb0a40b16fbf80604d70f5eaa8b6c26bbef9bcba2188ea5ec5a8"
+        },
+        "ph_guided": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260810\\ph_guided_seed20260810.pt",
+          "bytes": 1088716,
+          "sha256": "71186e448ca38ae621cff5cca79750b1e90bc43d8923217bfbfa53831d266374"
+        }
+      }
+    },
+    "20260811": {
+      "result": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260811\\train_dev_result.json",
+        "bytes": 9644,
+        "sha256": "e76afb434b31103a152d05dae91b280a4e6349d0ff20da7541e993c84e034f86"
+      },
+      "mask_checkpoint": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260811\\mask_predictor_seed20260811.pt",
+        "bytes": 4431799,
+        "sha256": "4dc7c6535f92bf0250ab0618906b3189c1b292bcdc58d013486daaea14269e0e"
+      },
+      "mask_probabilities": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260811\\mask_probabilities_train_dev.npz",
+        "bytes": 20046539,
+        "sha256": "323f81294f702db4a1a4079d8a5fc0bf3a0f77e8992d346e587f4ec41795e462"
+      },
+      "ph_cache": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260811\\ph_descriptors_train_dev.npz",
+        "bytes": 2686127,
+        "sha256": "6ac8b55a94667ce010b94a4d8877f093236119c3e181cb3b11f1260716eb6569"
+      },
+      "dev_predictions": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260811\\dev_predictions.npz",
+        "bytes": 15808,
+        "sha256": "190206002f7a7be3f883ff834d739cee9ed8da2ead38771dc348815f3886a64b"
+      },
+      "model_checkpoints": {
+        "mask_topo_external": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260811\\mask_topo_external_seed20260811.pt",
+          "bytes": 618744,
+          "sha256": "8b9d4ca01f354e80985bc47cf4680e6aa12e5b983cba8b08cc32ecc658f4da01"
+        },
+        "mask_conditioned_perceiver_strong": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260811\\mask_conditioned_perceiver_strong_seed20260811.pt",
+          "bytes": 1071939,
+          "sha256": "b5789bf723087d0fd803b76f2932d9bcdbd76c282d9d133fef6ebf3e74c7e2d0"
+        },
+        "mask_conditioned_slot_param_matched": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260811\\mask_conditioned_slot_param_matched_seed20260811.pt",
+          "bytes": 623474,
+          "sha256": "cf3bd75809875ba9b553a190b4c105dbc371c6a8989a1a317d40873a63c23c1e"
+        },
+        "ph_only": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260811\\ph_only_seed20260811.pt",
+          "bytes": 575574,
+          "sha256": "67acaa6aee48958b606001886dd7856cd5c7827fb141c31aad782ccc3b038a92"
+        },
+        "ph_guided": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260811\\ph_guided_seed20260811.pt",
+          "bytes": 1088716,
+          "sha256": "f36ae13274b6b7cff2a79d005f2be9b7039e9d227171d665087ff1f905d048cd"
+        }
+      }
+    },
+    "20260812": {
+      "result": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260812\\train_dev_result.json",
+        "bytes": 9784,
+        "sha256": "357a72f0c0c31aed7c91116ad6bd1796d2e25d72aeab623583ac32b4b9a18e0f"
+      },
+      "mask_checkpoint": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260812\\mask_predictor_seed20260812.pt",
+        "bytes": 4431799,
+        "sha256": "509e83506f7771191ddef7803f414f4b4f93f57ccede972057c041b623107e4a"
+      },
+      "mask_probabilities": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260812\\mask_probabilities_train_dev.npz",
+        "bytes": 19894858,
+        "sha256": "452676ac40fc8ec57a28ed4000c547180f2eb04e26bf94b43bffc05228a8f627"
+      },
+      "ph_cache": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260812\\ph_descriptors_train_dev.npz",
+        "bytes": 2663188,
+        "sha256": "ef2890e6c36253a6a2a3734a1026da0d52a1242645353b2cd5ec839dbe320bfd"
+      },
+      "dev_predictions": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260812\\dev_predictions.npz",
+        "bytes": 15825,
+        "sha256": "0ab07bcbf8a633c21dea2f4dce0c176a059312c6579fbba2c33d2c549b6d7c02"
+      },
+      "model_checkpoints": {
+        "mask_topo_external": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260812\\mask_topo_external_seed20260812.pt",
+          "bytes": 618744,
+          "sha256": "04f4f1374a002b951e197cc7ce762e388da50af0896c79c3fa13adaa3333eb09"
+        },
+        "mask_conditioned_perceiver_strong": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260812\\mask_conditioned_perceiver_strong_seed20260812.pt",
+          "bytes": 1071939,
+          "sha256": "d09deab043f7ed6dd8ce140c1954620acdec3690cedfd46ad3d933124a5004ac"
+        },
+        "mask_conditioned_slot_param_matched": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260812\\mask_conditioned_slot_param_matched_seed20260812.pt",
+          "bytes": 623474,
+          "sha256": "895d63e933b80ad1fb6a3cc3171915a2677eec76156609a4118290f4b10e069b"
+        },
+        "ph_only": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260812\\ph_only_seed20260812.pt",
+          "bytes": 575574,
+          "sha256": "3e0e32897546988c5cfe073902ac45b7d1ba8cf95e6005399e1986155e314a11"
+        },
+        "ph_guided": {
+          "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260812\\ph_guided_seed20260812.pt",
+          "bytes": 1088716,
+          "sha256": "fe24d2086a561b6a25ea3e5eb54c6cecd996281b29372cdb98a42a9ae46943b2"
+        }
+      }
+    }
+  },
+  "logs": {
+    "20260810": {
+      "stdout": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260810.stdout.log",
+        "bytes": 30236,
+        "sha256": "88ad9feeecaf5b68c3e937d1832b60944195eb570a6b16b1e4a6e94a266f60d0"
+      },
+      "stderr": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260810.stderr.log",
+        "bytes": 1166,
+        "sha256": "a07ca5e5deec15c77836515e68aa3caf4824e4e9ffe95c20af39c9e425f62191"
+      }
+    },
+    "20260811": {
+      "stdout": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260811.stdout.log",
+        "bytes": 30210,
+        "sha256": "34790a7338a79b84c6ddf169f3f69af18ee8bc23c892528ef92f34609dd15f07"
+      },
+      "stderr": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260811.stderr.log",
+        "bytes": 1166,
+        "sha256": "a07ca5e5deec15c77836515e68aa3caf4824e4e9ffe95c20af39c9e425f62191"
+      }
+    },
+    "20260812": {
+      "stdout": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260812.stdout.log",
+        "bytes": 30292,
+        "sha256": "1a1fcb307826f970fd7917042ff427618650d24dd15c5c591983dad87c8a7062"
+      },
+      "stderr": {
+        "path": "E:\\TopoBridge_MVP\\实验记录\\TB-B-260803-035_seed20260812.stderr.log",
+        "bytes": 1166,
+        "sha256": "a07ca5e5deec15c77836515e68aa3caf4824e4e9ffe95c20af39c9e425f62191"
+      }
+    }
+  },
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "executable": "E:\\TopoBridge_MVP\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "experiment_id": "TB-B-260803-035",
+  "status": "TRAIN_DEV_MATCHEDV3_GATE_PASS",
+  "test_accessed": false,
+  "test_image_member_request_count": 0,
+  "test_rsml_member_request_count": 0,
+  "data_seed": 20260810,
+  "matcher": "16-covariate standardized exact-brute kNN k=256 greedy unique pairs",
+  "diagnostics": {
+    "source_counts": {
+      "train": 90,
+      "dev": 14,
+      "test": 15
+    },
+    "sample_counts": {
+      "train": 2400,
+      "dev": 600
+    },
+    "positive_fraction": {
+      "train": 0.5,
+      "dev": 0.5
+    },
+    "unique_sources_used": {
+      "train": 90,
+      "dev": 14
+    },
+    "endpoint_distance_only_dev_balanced_accuracy": 0.5166666666666667,
+    "marker_coordinate_only_logistic_dev_balanced_accuracy": 0.5033333333333333,
+    "mean_intensity_only_dev_balanced_accuracy": 0.5383333333333333,
+    "direct_ground_truth_structure_metrics": {
+      "train": {
+        "balanced_accuracy": 1.0,
+        "positive_accuracy": 1.0,
+        "negative_accuracy": 1.0,
+        "accuracy": 1.0
+      },
+      "dev": {
+        "balanced_accuracy": 1.0,
+        "positive_accuracy": 1.0,
+        "negative_accuracy": 1.0,
+        "accuracy": 1.0
+      }
+    },
+    "matching": {
+      "train": {
+        "feature_dimension": 16,
+        "candidate_count": 7200,
+        "negative_candidates": 3600,
+        "positive_candidates": 3600,
+        "k_neighbors": 256,
+        "available_edge_count": 921600,
+        "accepted_pair_count": 1200,
+        "standardized_pair_distance_min": 0.021310193148010987,
+        "standardized_pair_distance_median": 0.5227495096350512,
+        "standardized_pair_distance_p95": 0.7019371794951369,
+        "standardized_pair_distance_max": 0.7212463186228076
+      },
+      "dev": {
+        "feature_dimension": 16,
+        "candidate_count": 1800,
+        "negative_candidates": 900,
+        "positive_candidates": 900,
+        "k_neighbors": 256,
+        "available_edge_count": 230400,
+        "accepted_pair_count": 300,
+        "standardized_pair_distance_min": 0.12926518985326305,
+        "standardized_pair_distance_median": 0.7164564470304053,
+        "standardized_pair_distance_p95": 0.9851052611273137,
+        "standardized_pair_distance_max": 1.01013514245113
+      }
+    }
+  },
+  "array_invariants": {
+    "train_shape": true,
+    "train_balanced": true,
+    "train_source_membership": true,
+    "train_marker_mask_overlap": true,
+    "train_endpoint_component_label_consistency": true,
+    "dev_shape": true,
+    "dev_balanced": true,
+    "dev_source_membership": true,
+    "dev_marker_mask_overlap": true,
+    "dev_endpoint_component_label_consistency": true
+  },
+  "gates": {
+    "source_manifest_90_14_15_and_disjoint": true,
+    "test_member_access_zero": true,
+    "exact_sample_counts": true,
+    "all_splits_exactly_balanced": true,
+    "all_array_invariants_pass": true,
+    "endpoint_distance_only_at_most_55pct": true,
+    "marker_coordinate_only_at_most_55pct": true,
+    "direct_ground_truth_structure_at_least_65pct": true
+  },
+  "protocol": {
+    "path": "E:\\TopoBridge_MVP\\ROOTNAV_BRASSICA_UNTOUCHED_PROTOCOL_V2.md",
+    "sha256": "db40091a6d78d1ef980a3d93ca01f5467fb7d45ed7410b97ac233f0c030af1fb"
+  },
+  "source_manifest": {
+    "path": "E:\\TopoBridge_MVP\\\u5b9e\u9a8c\u8bb0\u5f55\\TB-B-260803-034_source_manifest.json",
+    "sha256": "102ad36ce884045141cf5b71919667fa81a09e2d56829ebbc60022be0ae84de0"
+  },
+  "extraction_manifest": {
+    "path": "E:\\TopoBridge_MVP\\\u5b9e\u9a8c\u8bb0\u5f55\\TB-B-260803-034_train_dev_extraction_manifest.json",
+    "sha256": "9735c85ae3186839b6a56b9091478a654ce9a82af377cf654e401ee756dfb457"
+  },
+  "candidate_caches": {
+    "train": {
+      "path": "E:\\TopoBridge_MVP\\brassica_cache_v3\\brassica_train_candidates_n7200_seed20260810_crop64_e1a3917008e4c7c3.npz",
+      "sha256": "4d4875f2a8ce993376c4edb23491b4d7cbead02a609fe82b9cd9e19301c260e6"
+    },
+    "dev": {
+      "path": "E:\\TopoBridge_MVP\\brassica_cache_v3\\brassica_dev_candidates_n1800_seed21260810_crop64_e1a3917008e4c7c3.npz",
+      "sha256": "1b1285d281197581185747354f813904ffe74bc2766f350fb37fe55e8cb47070"
+    }
+  },
+  "matched_caches": {
+    "train": {
+      "path": "E:\\TopoBridge_MVP\\brassica_cache_v3\\brassica_train_n2400_seed20260810_crop64_matchedv3_e1a3917008e4c7c3.npz",
+      "sha256": "7743048a03366795fe71f1aef4096771921c22bc2c9b77281a8c52ada7d98bc6"
+    },
+    "dev": {
+      "path": "E:\\TopoBridge_MVP\\brassica_cache_v3\\brassica_dev_n600_seed21260810_crop64_matchedv3_e1a3917008e4c7c3.npz",
+      "sha256": "ffa97102b9595d551075cc9be6aa2b2e5bfc88d3b4a650d7a9150e0a5096da7e"
+    }
+  }
+}

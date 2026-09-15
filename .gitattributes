@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.png binary
+*.pdf binary
+
+# Preserve original experiment and protocol bytes for provenance hashes.
+experiments/** -text

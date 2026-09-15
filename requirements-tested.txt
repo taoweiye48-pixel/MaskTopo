@@ -1,0 +1,14 @@
+# Recorded workspace environment at release time; select a suitable PyTorch wheel separately.
+# Python 3.12.10; torch 2.11.0+cu128 (CUDA 12.8).
+numpy==2.3.5
+scipy==1.16.1
+matplotlib==3.10.8
+pandas==2.3.3
+Pillow==12.2.0
+gudhi==3.13.0
+rasterio==1.5.0
+shapely==2.1.2
+scikit-image==0.26.0
+tqdm==4.67.1
+# Added for release-time CLI verification; original training version was not recorded.
+scikit-learn==1.9.1

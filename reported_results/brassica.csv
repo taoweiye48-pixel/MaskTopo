@@ -1,0 +1,13 @@
+seed,model,balanced_accuracy
+20260810,mask_topo_external,0.8983333333333334
+20260811,mask_topo_external,0.8933333333333333
+20260812,mask_topo_external,0.8825000000000001
+20260810,mask_conditioned_perceiver_strong,0.7058333333333333
+20260811,mask_conditioned_perceiver_strong,0.6858333333333333
+20260812,mask_conditioned_perceiver_strong,0.6875
+20260810,mask_conditioned_slot_param_matched,0.6925
+20260811,mask_conditioned_slot_param_matched,0.6950000000000001
+20260812,mask_conditioned_slot_param_matched,0.6983333333333334
+20260810,ph_only,0.6933333333333334
+20260811,ph_only,0.6966666666666667
+20260812,ph_only,0.6908333333333334

@@ -1,0 +1,248 @@
+{
+  "experiment_id": "TB-B-260802-021_massroads_train_dev_freeze_manifest",
+  "status": "TRAIN_DEV_CHECKPOINTS_FROZEN_BEFORE_TEST_ACCESS",
+  "created_utc": "2026-08-02T11:56:23.097929+00:00",
+  "test_accessed": false,
+  "dataset_fingerprint": "d62012f5905a7c17",
+  "token_count": 8,
+  "optimization_seeds": [
+    20260820,
+    20260821,
+    20260822
+  ],
+  "models": [
+    "grid_external",
+    "mask_assignment_identity",
+    "shuffled_topology",
+    "mask_topo_external",
+    "tokenlearner",
+    "perceiver_resampler",
+    "tome_style",
+    "g2tm_fixedk_mask"
+  ],
+  "data_gate": {
+    "path": "E:\\TopoBridge_MVP\\results_massroads_data_audit\\data_gate.json",
+    "sha256": "4f3ef28c16820faa94f6f691380ed76a8c2090b32f81dc2025d6331a8e9a69e6"
+  },
+  "protocol": {
+    "path": "E:\\TopoBridge_MVP\\MASSACHUSETTS_ROADS_EXTERNAL_CONFIRMATION_PROTOCOL.md",
+    "sha256": "ec846f3e3e5e367caaf255367e55a91449a247d3192bee0c19342d1a26c82f35",
+    "version": "massroads_protocol_v1.2"
+  },
+  "training_script": {
+    "path": "E:\\TopoBridge_MVP\\massroads_train_dev.py",
+    "sha256": "5030a9f8b69b73f742caab55349b59b2142a3297bbb91b9550a15cba4fb5ab98"
+  },
+  "runs": [
+    {
+      "seed": 20260820,
+      "run_root": "E:\\TopoBridge_MVP\\results_massroads_seed20260820_train_dev_retry1",
+      "result_json": {
+        "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260820_train_dev_retry1\\train_dev_result.json",
+        "sha256": "fba8dc51d400d3925e83a02a9b277074cbb3b02370c8d2ec6dd7695d5f213382"
+      },
+      "selected_on_validation": {
+        "mask_threshold": 0.2,
+        "closing_iterations": 1,
+        "balanced_accuracy": 0.7416666666666667,
+        "positive_accuracy": 0.73,
+        "negative_accuracy": 0.7533333333333333,
+        "accuracy": 0.7416666666666667
+      },
+      "mask_checkpoint": {
+        "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260820_train_dev_retry1\\mask_predictor_seed20260820.pt",
+        "sha256": "954f39c40ab165c2f985488f3e2b475cd49f391341d34dc92b74812197319b9c"
+      },
+      "checkpoints": {
+        "grid_external": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260820_train_dev_retry1\\grid_external_seed20260820.pt",
+          "sha256": "8bb57426918fb822c1cae4969a3ff1cca9cccdff9e0d0fcf150e1590b4195d0f",
+          "parameters": 149123,
+          "best_dev_balanced_accuracy": 0.6083333333333334
+        },
+        "mask_assignment_identity": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260820_train_dev_retry1\\mask_assignment_identity_seed20260820.pt",
+          "sha256": "c3f7d40e39b94f600bb32447655655eeaa8cf975d4b6611bca26af4dec0722e4",
+          "parameters": 149123,
+          "best_dev_balanced_accuracy": 0.69
+        },
+        "shuffled_topology": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260820_train_dev_retry1\\shuffled_topology_seed20260820.pt",
+          "sha256": "1ed65ba85db4e1e45cbc7a49ae5a72676eb1d40b12c67e14a4ead86eff9d9ebf",
+          "parameters": 149123,
+          "best_dev_balanced_accuracy": 0.6266666666666667
+        },
+        "mask_topo_external": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260820_train_dev_retry1\\mask_topo_external_seed20260820.pt",
+          "sha256": "6f80b7e7dc102c9b7b7b5dd87288e853e1fdf74f77b096a6f68966072a538c50",
+          "parameters": 149123,
+          "best_dev_balanced_accuracy": 0.74
+        },
+        "tokenlearner": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260820_train_dev_retry1\\tokenlearner_seed20260820.pt",
+          "sha256": "7861b57bbc57a2f913f46450cf6c48ae421766d609981281acb38874f07e5f91",
+          "parameters": 190731,
+          "best_dev_balanced_accuracy": 0.665
+        },
+        "perceiver_resampler": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260820_train_dev_retry1\\perceiver_resampler_seed20260820.pt",
+          "sha256": "5b85f042c870cbc7882529802d5f85b9c9778bac9ad82b7bf03c8320ff102fb4",
+          "parameters": 254211,
+          "best_dev_balanced_accuracy": 0.5016666666666667
+        },
+        "tome_style": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260820_train_dev_retry1\\tome_style_seed20260820.pt",
+          "sha256": "342b6a8d29baea793fe8b0db55e4f72eb3acc08c0772e235a647b9509388da45",
+          "parameters": 149315,
+          "best_dev_balanced_accuracy": 0.6333333333333333
+        },
+        "g2tm_fixedk_mask": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260820_train_dev_retry1\\g2tm_fixedk_mask_seed20260820.pt",
+          "sha256": "55aaaea525c623f64b096891e4487039912956ac26e6206e00410cf51dfb8b1d",
+          "parameters": 153411,
+          "best_dev_balanced_accuracy": 0.6799999999999999
+        }
+      }
+    },
+    {
+      "seed": 20260821,
+      "run_root": "E:\\TopoBridge_MVP\\results_massroads_seed20260821_train_dev",
+      "result_json": {
+        "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260821_train_dev\\train_dev_result.json",
+        "sha256": "e0f3243127378dc64a266040e0863f393d4759b455cf7e16b4caceda206c4f32"
+      },
+      "selected_on_validation": {
+        "mask_threshold": 0.7,
+        "closing_iterations": 2,
+        "balanced_accuracy": 0.755,
+        "positive_accuracy": 0.6266666666666667,
+        "negative_accuracy": 0.8833333333333333,
+        "accuracy": 0.755
+      },
+      "mask_checkpoint": {
+        "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260821_train_dev\\mask_predictor_seed20260821.pt",
+        "sha256": "65628c0504384bb77cf05bdaf45704ec674d80ca255df84d6e045f368af8ae54"
+      },
+      "checkpoints": {
+        "grid_external": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260821_train_dev\\grid_external_seed20260821.pt",
+          "sha256": "3d40570059ac32a2a270ebc7d5ae18e5324d3f02e347bb6556e809c60edab9ff",
+          "parameters": 149123,
+          "best_dev_balanced_accuracy": 0.6000000000000001
+        },
+        "mask_assignment_identity": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260821_train_dev\\mask_assignment_identity_seed20260821.pt",
+          "sha256": "7115c6a4f07f08b8fd9ac76bb14a2c47af7c4fcf79cb6278e43084dd0408e28d",
+          "parameters": 149123,
+          "best_dev_balanced_accuracy": 0.7216666666666667
+        },
+        "shuffled_topology": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260821_train_dev\\shuffled_topology_seed20260821.pt",
+          "sha256": "ca3df0afec40ebd367eb407fa03e1e5deb2f73e2d3f20dc2c12ed51bfc01ccf5",
+          "parameters": 149123,
+          "best_dev_balanced_accuracy": 0.5883333333333334
+        },
+        "mask_topo_external": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260821_train_dev\\mask_topo_external_seed20260821.pt",
+          "sha256": "d39144e2146594053905f0913657c70dc64cf5b2f69aee1fd222d73aeb0bec95",
+          "parameters": 149123,
+          "best_dev_balanced_accuracy": 0.7583333333333333
+        },
+        "tokenlearner": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260821_train_dev\\tokenlearner_seed20260821.pt",
+          "sha256": "2dc691012d299da594093fa669db5a1988b223b1a68ca95e5486c4eca37700ab",
+          "parameters": 190731,
+          "best_dev_balanced_accuracy": 0.6616666666666666
+        },
+        "perceiver_resampler": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260821_train_dev\\perceiver_resampler_seed20260821.pt",
+          "sha256": "2b8923f9e1d83de415d158dd14fd31771dc5e6403120fda5ad736a03de0f0ce5",
+          "parameters": 254211,
+          "best_dev_balanced_accuracy": 0.5766666666666667
+        },
+        "tome_style": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260821_train_dev\\tome_style_seed20260821.pt",
+          "sha256": "df96a5cf74aed0014253b1e38e36d77f543fdfe03bb684075f6de06c88d62327",
+          "parameters": 149315,
+          "best_dev_balanced_accuracy": 0.6483333333333334
+        },
+        "g2tm_fixedk_mask": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260821_train_dev\\g2tm_fixedk_mask_seed20260821.pt",
+          "sha256": "9cccccc0dea807f88387fb0f7d2e5cbd86ef50f8bc7419345b31dfc2482e4599",
+          "parameters": 153411,
+          "best_dev_balanced_accuracy": 0.6833333333333333
+        }
+      }
+    },
+    {
+      "seed": 20260822,
+      "run_root": "E:\\TopoBridge_MVP\\results_massroads_seed20260822_train_dev",
+      "result_json": {
+        "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260822_train_dev\\train_dev_result.json",
+        "sha256": "cafb1ec111e843b4782ad1e65063b563ef2c57372bf61091d8aea159b7e0314d"
+      },
+      "selected_on_validation": {
+        "mask_threshold": 0.5,
+        "closing_iterations": 1,
+        "balanced_accuracy": 0.7583333333333333,
+        "positive_accuracy": 0.65,
+        "negative_accuracy": 0.8666666666666667,
+        "accuracy": 0.7583333333333333
+      },
+      "mask_checkpoint": {
+        "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260822_train_dev\\mask_predictor_seed20260822.pt",
+        "sha256": "367e53de0647e8432bef91aa0a7c2cab02e2ddf6cab18fb5dea372a37928026b"
+      },
+      "checkpoints": {
+        "grid_external": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260822_train_dev\\grid_external_seed20260822.pt",
+          "sha256": "9e351b38fb53591e8f56ab1e1a76600ff053c70d1d4db270038b6863711259b4",
+          "parameters": 149123,
+          "best_dev_balanced_accuracy": 0.61
+        },
+        "mask_assignment_identity": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260822_train_dev\\mask_assignment_identity_seed20260822.pt",
+          "sha256": "beb1017b901c14e6b1f2760362e088c82cec9721db28934bd4d4392d74f66fc1",
+          "parameters": 149123,
+          "best_dev_balanced_accuracy": 0.67
+        },
+        "shuffled_topology": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260822_train_dev\\shuffled_topology_seed20260822.pt",
+          "sha256": "d6abd58e19143a9f0112763404658ed67c0f44adac5e2fa2cbff30ca35c91b00",
+          "parameters": 149123,
+          "best_dev_balanced_accuracy": 0.5800000000000001
+        },
+        "mask_topo_external": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260822_train_dev\\mask_topo_external_seed20260822.pt",
+          "sha256": "9b0c92f4306107314935c975ee8fd3d9c8bd50a1cd969b3de59fe1c7add1472f",
+          "parameters": 149123,
+          "best_dev_balanced_accuracy": 0.7533333333333333
+        },
+        "tokenlearner": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260822_train_dev\\tokenlearner_seed20260822.pt",
+          "sha256": "b4c803df9e290b726e797426860fb787d04acd77ba0d16332b77c67efa5dc785",
+          "parameters": 190731,
+          "best_dev_balanced_accuracy": 0.6716666666666666
+        },
+        "perceiver_resampler": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260822_train_dev\\perceiver_resampler_seed20260822.pt",
+          "sha256": "582ebd49ef31e7c29381d83003dc2790ea278a549c117fa27b7e169bff1bbccf",
+          "parameters": 254211,
+          "best_dev_balanced_accuracy": 0.5
+        },
+        "tome_style": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260822_train_dev\\tome_style_seed20260822.pt",
+          "sha256": "52e3896b9d0380a547b63e21b347e296a829b843c9835e0a14ba3a4bcf16aabb",
+          "parameters": 149315,
+          "best_dev_balanced_accuracy": 0.6316666666666667
+        },
+        "g2tm_fixedk_mask": {
+          "path": "E:\\TopoBridge_MVP\\results_massroads_seed20260822_train_dev\\g2tm_fixedk_mask_seed20260822.pt",
+          "sha256": "fd238c3e9a85fd3e0ca371b16de6f4d0b4367aeaf50e84286038c62bc8d375dc",
+          "parameters": 153411,
+          "best_dev_balanced_accuracy": 0.6416666666666666
+        }
+      }
+    }
+  ]
+}
