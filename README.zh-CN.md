@@ -6,6 +6,12 @@
 
 本仓库提供论文 **MaskTopo: Component-Aligned Token Coarsening for Thin-Structure Connectivity** 的配套代码。
 
+**作者：**Taowei Ye<sup>1,*</sup>、Zi Yi Zou<sup>2,*</sup>、Yutong You<sup>1</sup>
+
+<sup>1</sup> East China Jiaotong University · <sup>2</sup> University of Waterloo
+
+<sup>*</sup> Taowei Ye 和 Zi Yi Zou 为共同第一作者。
+
 MaskTopo 根据预测的连通分量，将密集视觉特征组织为**恰好 K 个非空 token**，再通过分别设置门控的**邻接**与**可达性**分支传递信息。
 
 ![MaskTopo 整体流程](assets/overview.png)
@@ -121,10 +127,11 @@ pp 表示百分点。以上均为**端点连通性分类**结果，不同结构�
 
 ## 引用
 
-在作者信息和公开论文标识补全之前，可按论文标题引用代码仓库，并注明所使用的具体提交版本：
+在公开论文标识补全之前，可按论文标题引用代码仓库，并注明所使用的具体提交版本：
 
 ```bibtex
 @misc{masktopo_code,
+  author = {Ye, Taowei and Zou, Zi Yi and You, Yutong},
   title = {MaskTopo: Component-Aligned Token Coarsening for Thin-Structure Connectivity},
   year = {2026},
   howpublished = {\url{https://github.com/taoweiye48-pixel/MaskTopo}},

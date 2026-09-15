@@ -6,6 +6,12 @@
 
 Companion code for the manuscript **MaskTopo: Component-Aligned Token Coarsening for Thin-Structure Connectivity**.
 
+**Authors:** Taowei Ye<sup>1,*</sup>, Zi Yi Zou<sup>2,*</sup>, Yutong You<sup>1</sup>
+
+<sup>1</sup> East China Jiaotong University · <sup>2</sup> University of Waterloo
+
+<sup>*</sup> Taowei Ye and Zi Yi Zou contributed equally.
+
 MaskTopo organizes dense visual features into exactly **K nonempty tokens** using predicted connected components, then propagates information through separately gated **adjacency** and **reachability** branches.
 
 ![MaskTopo overview](assets/overview.png)
@@ -121,10 +127,11 @@ The example figures use FIVES development example #232 (`train:74_A`); the origi
 
 ## Citation
 
-Until bibliographic author details and a public paper identifier are available, cite the repository with its exact commit and the manuscript title:
+Until a public paper identifier is available, cite the repository with its exact commit and the manuscript title:
 
 ```bibtex
 @misc{masktopo_code,
+  author = {Ye, Taowei and Zou, Zi Yi and You, Yutong},
   title = {MaskTopo: Component-Aligned Token Coarsening for Thin-Structure Connectivity},
   year = {2026},
   howpublished = {\url{https://github.com/taoweiye48-pixel/MaskTopo}},
